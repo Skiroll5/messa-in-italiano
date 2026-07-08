@@ -57,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const expandedProgressBar = document.getElementById('expanded-progress-bar');
     const expandedTimeCurrent = document.getElementById('expanded-time-current');
     const expandedTimeTotal = document.getElementById('expanded-time-total');
+    const expContent = document.querySelector('.expanded-content-area');
     
     const expPlayBtn = document.getElementById('expanded-play-btn');
     const expPlayIcon = document.getElementById('expanded-play-icon');
@@ -75,6 +76,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentWordElements = [];
     const speeds = [1, 1.25, 1.5, 2];
     let currentSpeedIndex = 0;
+    
+    let userForcedScroll = false;
+    let isAutoScrolling = false;
+    let autoScrollTimeout = null;
     
     // Preferences (default to justified)
     let isJustified = localStorage.getItem('justify') !== 'false';
@@ -207,8 +212,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     pauseAudio();
                 } else if (isActive && !isPlaying) {
                     playAudio();
+                    if (expandedPlayer) expandedPlayer.classList.add('active');
                 } else {
                     playTrackById(section.id);
+                    if (expandedPlayer) expandedPlayer.classList.add('active');
                 }
             });
             
@@ -306,6 +313,9 @@ document.addEventListener('DOMContentLoaded', () => {
             currentWordElements = [];
         }
         
+        userForcedScroll = false;
+        isAutoScrolling = false;
+        
         let roleName = massData.roles[section.role]['it'] || massData.roles[section.role];
         playerRole.textContent = roleName;
         expandedRole.textContent = roleName;
@@ -401,6 +411,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Event Listeners Setup
     function setupEventListeners() {
+        if (expContent) {
+            expContent.addEventListener('scroll', () => {
+                if (!isAutoScrolling) {
+                    userForcedScroll = true;
+                }
+            }, {passive: true});
+            
+            expContent.addEventListener('scrollend', () => {
+                if (isAutoScrolling) {
+                    isAutoScrolling = false;
+                    clearTimeout(autoScrollTimeout);
+                }
+            }, {passive: true});
+        }
+
         themeToggleBtn.addEventListener('click', toggleTheme);
         if (highlightBtn) highlightBtn.addEventListener('click', toggleHighlight);
         justifyBtn.addEventListener('click', toggleJustify);
@@ -486,8 +511,22 @@ document.addEventListener('DOMContentLoaded', () => {
                     const activeEl = currentWordElements[activeIdx];
                     const container = expContent;
                     const elOffset = activeEl.offsetTop - container.offsetTop;
-                    if (elOffset < container.scrollTop || elOffset > container.scrollTop + container.clientHeight - 60) {
-                        container.scrollTo({ top: elOffset - container.clientHeight / 2, behavior: 'smooth' });
+                    
+                    const isOutOfView = elOffset < container.scrollTop || elOffset > container.scrollTop + container.clientHeight - 60;
+                    
+                    if (isOutOfView) {
+                        if (!userForcedScroll) {
+                            isAutoScrolling = true;
+                            clearTimeout(autoScrollTimeout);
+                            container.scrollTo({ top: elOffset - container.clientHeight / 2, behavior: 'smooth' });
+                            autoScrollTimeout = setTimeout(() => {
+                                isAutoScrolling = false;
+                            }, 1000);
+                        }
+                    } else {
+                        if (userForcedScroll) {
+                            userForcedScroll = false;
+                        }
                     }
                 }
             }
@@ -594,7 +633,6 @@ document.addEventListener('DOMContentLoaded', () => {
         let isDraggingPlayer = false;
         let isClosingPlayer = false;
         const playerBar = document.querySelector('.player-bar');
-        const expContent = document.querySelector('.expanded-content-area');
         
         playerBar.addEventListener('touchstart', (e) => {
             if (!currentPlayingId) return;
