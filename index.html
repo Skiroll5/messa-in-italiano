@@ -882,6 +882,14 @@
             box-shadow: 0 2px 8px rgba(197, 153, 58, 0.4);
             transform: scale(1.05);
         }
+
+        .no-highlight .expanded-text .word.highlight {
+            color: inherit;
+            background: transparent;
+            text-shadow: none;
+            box-shadow: none;
+            transform: none;
+        }
         
         @media (min-width: 768px) {
             .expanded-text {
@@ -1112,6 +1120,9 @@
         </div>
 
         <div class="header-actions">
+            <button id="highlight-toggle" class="header-btn" title="Attiva/Disattiva evidenziazione testo">
+                <i class="fa-solid fa-highlighter" id="highlight-icon"></i>
+            </button>
             <button id="justify-toggle" class="header-btn" title="Allineamento testo">
                 <i class="fa-solid fa-align-left" id="justify-icon"></i>
             </button>

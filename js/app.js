@@ -14,6 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const themeToggleBtn = document.getElementById('theme-toggle');
     const themeIconLight = document.getElementById('theme-icon-light');
     const themeIconDark = document.getElementById('theme-icon-dark');
+    const highlightBtn = document.getElementById('highlight-toggle');
+    const highlightIcon = document.getElementById('highlight-icon');
     const justifyBtn = document.getElementById('justify-toggle');
     const justifyIcon = document.getElementById('justify-icon');
     const htmlElement = document.documentElement;
@@ -67,6 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Preferences (default to justified)
     let isJustified = localStorage.getItem('justify') !== 'false';
+    let isHighlightEnabled = localStorage.getItem('highlight') !== 'false';
 
     // Initialization
     async function init() {
@@ -86,6 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 throw new Error("Invalid data.json structure");
             }
             
+            updateHighlightUI();
             updateJustifyUI();
             applyFilters();
             setupEventListeners();
@@ -356,6 +360,22 @@ document.addEventListener('DOMContentLoaded', () => {
             justifyIcon.className = 'fa-solid fa-align-left';
         }
     }
+    
+    function toggleHighlight() {
+        isHighlightEnabled = !isHighlightEnabled;
+        localStorage.setItem('highlight', isHighlightEnabled);
+        updateHighlightUI();
+    }
+    
+    function updateHighlightUI() {
+        if (isHighlightEnabled) {
+            htmlElement.classList.remove('no-highlight');
+            if (highlightIcon) highlightIcon.style.opacity = '1';
+        } else {
+            htmlElement.classList.add('no-highlight');
+            if (highlightIcon) highlightIcon.style.opacity = '0.4';
+        }
+    }
 
     function formatTime(seconds) {
         if (isNaN(seconds)) return "0:00";
@@ -367,6 +387,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Event Listeners Setup
     function setupEventListeners() {
         themeToggleBtn.addEventListener('click', toggleTheme);
+        if (highlightBtn) highlightBtn.addEventListener('click', toggleHighlight);
         justifyBtn.addEventListener('click', toggleJustify);
         
         loopBtn.addEventListener('click', toggleLoopMode);
