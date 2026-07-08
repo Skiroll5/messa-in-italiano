@@ -203,6 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Prevent reloading the same audio if already playing (unless requested to restart)
         if (!audioPlayer.src.endsWith(section.audio)) {
             audioPlayer.src = section.audio;
+            audioPlayer.defaultPlaybackRate = speeds[currentSpeedIndex];
             audioPlayer.playbackRate = speeds[currentSpeedIndex]; // apply speed
             audioPlayer.load();
         }
@@ -213,6 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function playAudio() {
+        audioPlayer.playbackRate = speeds[currentSpeedIndex];
         audioPlayer.play().then(() => {
             isPlaying = true;
             playIcon.classList.remove('fa-play');
@@ -269,6 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function toggleSpeed() {
         currentSpeedIndex = (currentSpeedIndex + 1) % speeds.length;
         const newSpeed = speeds[currentSpeedIndex];
+        audioPlayer.defaultPlaybackRate = newSpeed;
         audioPlayer.playbackRate = newSpeed;
         speedIcon.textContent = newSpeed + 'x';
     }
