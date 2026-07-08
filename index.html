@@ -893,26 +893,33 @@
         }
         
         .expanded-text .word:hover {
-            background: rgba(255, 255, 255, 0.1);
+            background: transparent;
+            color: var(--accent-gold);
+            transform: none;
+            box-shadow: none;
         }
         
         .dark .expanded-text .word:hover {
-            background: rgba(0, 0, 0, 0.2);
-        }
-
-        .expanded-text .word.highlight {
-            color: #ffffff;
-            background: var(--accent-gold);
-            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-            box-shadow: 0 2px 8px rgba(197, 153, 58, 0.4);
-            transform: scale(1.05);
-        }
-
-        .no-highlight .expanded-text .word.highlight {
-            color: inherit;
             background: transparent;
-            text-shadow: none;
+            color: var(--accent-gold);
             box-shadow: none;
+        }
+
+        html:not(.no-highlight) .expanded-text .word.highlight,
+        html:not(.no-highlight) .expanded-text .word.highlight:hover {
+            color: var(--accent-gold);
+            background: rgba(197, 153, 58, 0.15);
+            text-shadow: none;
+            box-shadow: 0 1px 4px rgba(197, 153, 58, 0.15);
+            transform: none;
+        }
+
+        html.dark:not(.no-highlight) .expanded-text .word.highlight,
+        html.dark:not(.no-highlight) .expanded-text .word.highlight:hover {
+            color: var(--accent-gold);
+            background: rgba(197, 153, 58, 0.25);
+            text-shadow: none;
+            box-shadow: 0 1px 4px rgba(197, 153, 58, 0.3);
             transform: none;
         }
         

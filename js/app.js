@@ -470,7 +470,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 let activeIdx = -1;
                 for (let i = 0; i < currentWordsList.length; i++) {
                     const w = currentWordsList[i];
-                    if (currentTime >= w.start && currentTime <= w.end) {
+                    const isLast = (i === currentWordsList.length - 1);
+                    if (currentTime >= w.start && (currentTime < w.end || (isLast && currentTime <= w.end))) {
                         activeIdx = i;
                         break;
                     }
