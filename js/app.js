@@ -24,8 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const expThemeIconDark = document.getElementById('exp-theme-icon-dark');
     const expHighlightBtn = document.getElementById('exp-highlight-toggle');
     const expHighlightIcon = document.getElementById('exp-highlight-icon');
-    const expJustifyBtn = document.getElementById('exp-justify-toggle');
-    const expJustifyIcon = document.getElementById('exp-justify-icon');
     
     const htmlElement = document.documentElement;
     
@@ -377,10 +375,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateJustifyUI() {
         if (isJustified) {
             justifyIcon.className = 'fa-solid fa-align-justify';
-            if (expJustifyIcon) expJustifyIcon.className = 'fa-solid fa-align-justify';
         } else {
             justifyIcon.className = 'fa-solid fa-align-left';
-            if (expJustifyIcon) expJustifyIcon.className = 'fa-solid fa-align-left';
         }
     }
     
@@ -432,7 +428,6 @@ document.addEventListener('DOMContentLoaded', () => {
         
         if (expThemeToggleBtn) expThemeToggleBtn.addEventListener('click', toggleTheme);
         if (expHighlightBtn) expHighlightBtn.addEventListener('click', toggleHighlight);
-        if (expJustifyBtn) expJustifyBtn.addEventListener('click', toggleJustify);
         
         loopBtn.addEventListener('click', toggleLoopMode);
         speedBtn.addEventListener('click', toggleSpeed);
