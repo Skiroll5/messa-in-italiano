@@ -858,6 +858,31 @@
             margin: auto 0;
         }
         
+        .expanded-text .word {
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            border-radius: 6px;
+            padding: 2px 4px;
+            margin: 0;
+            display: inline-block;
+        }
+        
+        .expanded-text .word:hover {
+            background: rgba(255, 255, 255, 0.1);
+        }
+        
+        .dark .expanded-text .word:hover {
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .expanded-text .word.highlight {
+            color: #ffffff;
+            background: var(--accent-gold);
+            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 8px rgba(197, 153, 58, 0.4);
+            transform: scale(1.05);
+        }
+        
         @media (min-width: 768px) {
             .expanded-text {
                 font-size: 36px;

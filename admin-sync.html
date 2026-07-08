@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Sincronizzazione Audio - Coptic Mass App</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; max-width: 800px; margin: auto; }
+        .btn { padding: 10px 20px; background: #8b1a2b; color: white; border: none; cursor: pointer; border-radius: 4px; }
+        .btn:disabled { background: #ccc; cursor: not-allowed; }
+        .progress-box { margin-top: 20px; padding: 15px; border: 1px solid #ccc; background: #f9f9f9; border-radius: 4px; min-height: 100px; max-height: 400px; overflow-y: auto; }
+        .progress-item { margin-bottom: 8px; font-size: 14px; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Sincronizzazione Testo-Audio con IA</h1>
+    <p>Questo strumento utilizza l'intelligenza artificiale gratuita nel browser (Whisper) per analizzare i file audio e generare i timestamp parola per parola per il testo in italiano. Verrà scaricato un modello IA di circa 150MB la prima volta.</p>
+    
+    <button id="start-btn" class="btn">Inizia Sincronizzazione</button>
+    <button id="download-btn" class="btn" style="display:none; background: #28a745;">Scarica data.json aggiornato</button>
+    
+    <div class="progress-box" id="log-box">
+        <div class="progress-item">In attesa...</div>
+    </div>
+
+    <!-- Modulo JS in linea per usare import() -->
+    <script type="module" src="js/admin-sync.js"></script>
+</body>
+</html>

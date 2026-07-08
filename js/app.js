@@ -60,6 +60,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const expSpeedIcon = document.getElementById('expanded-speed-icon');
 
     let isDraggingProgress = false;
+    let currentWordsList = [];
+    let currentWordElements = [];
     const speeds = [1, 1.25, 1.5, 2];
     let currentSpeedIndex = 0;
     
@@ -269,7 +271,25 @@ document.addEventListener('DOMContentLoaded', () => {
         
         let textContent = section.text.it || section.text.ar || '...';
         playerTitle.textContent = textContent;
-        expandedText.innerHTML = textContent.replace(/\n/g, '<br>');
+        
+        if (section.words_it && section.words_it.length > 0) {
+            expandedText.innerHTML = '';
+            section.words_it.forEach((wordObj, i) => {
+                const span = document.createElement('span');
+                span.className = 'word';
+                span.textContent = wordObj.word;
+                span.dataset.start = wordObj.start;
+                span.dataset.end = wordObj.end;
+                expandedText.appendChild(span);
+                expandedText.appendChild(document.createTextNode(' '));
+            });
+            currentWordsList = section.words_it;
+            currentWordElements = Array.from(expandedText.querySelectorAll('.word'));
+        } else {
+            expandedText.innerHTML = textContent.replace(/\n/g, '<br>');
+            currentWordsList = [];
+            currentWordElements = [];
+        }
         
         let roleName = massData.roles[section.role]['it'] || massData.roles[section.role];
         playerRole.textContent = roleName;
@@ -393,15 +413,42 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         audioPlayer.addEventListener('timeupdate', () => {
+            const currentTime = audioPlayer.currentTime;
             if (timeCurrent && audioPlayer.duration) {
-                const curTimeStr = formatTime(audioPlayer.currentTime);
+                const curTimeStr = formatTime(currentTime);
                 timeCurrent.textContent = curTimeStr;
                 expandedTimeCurrent.textContent = curTimeStr;
             }
             if (audioPlayer.duration && !isDraggingProgress) {
-                const percent = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+                const percent = (currentTime / audioPlayer.duration) * 100;
                 progressBar.style.width = `${percent}%`;
                 expandedProgressBar.style.width = `${percent}%`;
+            }
+            
+            // Highlight current word
+            if (currentWordsList.length > 0) {
+                let activeIdx = -1;
+                for (let i = 0; i < currentWordsList.length; i++) {
+                    const w = currentWordsList[i];
+                    if (currentTime >= w.start && currentTime <= w.end) {
+                        activeIdx = i;
+                        break;
+                    }
+                }
+                currentWordElements.forEach((el, i) => {
+                    if (i === activeIdx) el.classList.add('highlight');
+                    else el.classList.remove('highlight');
+                });
+                
+                // Auto-scroll
+                if (activeIdx !== -1 && !isClosingPlayer && !isDraggingPlayer) {
+                    const activeEl = currentWordElements[activeIdx];
+                    const container = expContent;
+                    const elOffset = activeEl.offsetTop - container.offsetTop;
+                    if (elOffset < container.scrollTop || elOffset > container.scrollTop + container.clientHeight - 60) {
+                        container.scrollTo({ top: elOffset - container.clientHeight / 2, behavior: 'smooth' });
+                    }
+                }
             }
         });
 
@@ -595,6 +642,17 @@ document.addEventListener('DOMContentLoaded', () => {
         
         seekBackBtn.addEventListener('click', () => seek(-5));
         seekFwdBtn.addEventListener('click', () => seek(5));
+        
+        // Word click seeking
+        expandedText.addEventListener('click', (e) => {
+            const wordEl = e.target.closest('.word');
+            if (wordEl && wordEl.dataset.start) {
+                if (audioPlayer.duration) {
+                    audioPlayer.currentTime = parseFloat(wordEl.dataset.start);
+                    if (!isPlaying) playAudio();
+                }
+            }
+        });
         
         // Expanded player controls bindings
         expPlayBtn.addEventListener('click', () => playBtn.click());
