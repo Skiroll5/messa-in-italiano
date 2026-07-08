@@ -831,6 +831,31 @@
             cursor: pointer;
             padding: 8px;
         }
+        
+        .exp-header-btn {
+            width: 32px;
+            height: 32px;
+            border: none;
+            background: transparent;
+            color: var(--text-muted);
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s ease;
+        }
+
+        .exp-header-btn:active {
+            transform: scale(0.9);
+            background: var(--bg-secondary);
+        }
+
+        .exp-header-btn:hover {
+            color: var(--text-primary);
+            background: var(--bg-secondary);
+        }
 
         .expanded-role-badge {
             font-family: var(--font-ui);
@@ -1220,6 +1245,19 @@
                 <i class="fa-solid fa-chevron-down"></i>
             </button>
             <span class="expanded-role-badge" id="expanded-player-role">Per iniziare</span>
+            
+            <div style="position: absolute; right: 16px; display: flex; gap: 4px;">
+                <button id="exp-highlight-toggle" class="exp-header-btn" title="Attiva/Disattiva evidenziazione testo">
+                    <i class="fa-solid fa-highlighter" id="exp-highlight-icon"></i>
+                </button>
+                <button id="exp-justify-toggle" class="exp-header-btn" title="Allineamento testo">
+                    <i class="fa-solid fa-align-left" id="exp-justify-icon"></i>
+                </button>
+                <button id="exp-theme-toggle" class="exp-header-btn" title="Tema chiaro/scuro">
+                    <i class="fa-solid fa-moon" id="exp-theme-icon-light"></i>
+                    <i class="fa-solid fa-sun" id="exp-theme-icon-dark" style="display:none;"></i>
+                </button>
+            </div>
         </div>
         
         <div class="expanded-content-area">

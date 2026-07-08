@@ -18,6 +18,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const highlightIcon = document.getElementById('highlight-icon');
     const justifyBtn = document.getElementById('justify-toggle');
     const justifyIcon = document.getElementById('justify-icon');
+    
+    const expThemeToggleBtn = document.getElementById('exp-theme-toggle');
+    const expThemeIconLight = document.getElementById('exp-theme-icon-light');
+    const expThemeIconDark = document.getElementById('exp-theme-icon-dark');
+    const expHighlightBtn = document.getElementById('exp-highlight-toggle');
+    const expHighlightIcon = document.getElementById('exp-highlight-icon');
+    const expJustifyBtn = document.getElementById('exp-justify-toggle');
+    const expJustifyIcon = document.getElementById('exp-justify-icon');
+    
     const htmlElement = document.documentElement;
     
     // Player DOM
@@ -120,6 +129,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const isDark = htmlElement.classList.contains('dark');
         if (themeIconLight) themeIconLight.style.display = isDark ? 'none' : '';
         if (themeIconDark) themeIconDark.style.display = isDark ? '' : 'none';
+        if (expThemeIconLight) expThemeIconLight.style.display = isDark ? 'none' : '';
+        if (expThemeIconDark) expThemeIconDark.style.display = isDark ? '' : 'none';
     }
 
     // Filters
@@ -356,8 +367,10 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateJustifyUI() {
         if (isJustified) {
             justifyIcon.className = 'fa-solid fa-align-justify';
+            if (expJustifyIcon) expJustifyIcon.className = 'fa-solid fa-align-justify';
         } else {
             justifyIcon.className = 'fa-solid fa-align-left';
+            if (expJustifyIcon) expJustifyIcon.className = 'fa-solid fa-align-left';
         }
     }
     
@@ -371,9 +384,11 @@ document.addEventListener('DOMContentLoaded', () => {
         if (isHighlightEnabled) {
             htmlElement.classList.remove('no-highlight');
             if (highlightIcon) highlightIcon.style.opacity = '1';
+            if (expHighlightIcon) expHighlightIcon.style.opacity = '1';
         } else {
             htmlElement.classList.add('no-highlight');
             if (highlightIcon) highlightIcon.style.opacity = '0.4';
+            if (expHighlightIcon) expHighlightIcon.style.opacity = '0.4';
         }
     }
 
@@ -389,6 +404,10 @@ document.addEventListener('DOMContentLoaded', () => {
         themeToggleBtn.addEventListener('click', toggleTheme);
         if (highlightBtn) highlightBtn.addEventListener('click', toggleHighlight);
         justifyBtn.addEventListener('click', toggleJustify);
+        
+        if (expThemeToggleBtn) expThemeToggleBtn.addEventListener('click', toggleTheme);
+        if (expHighlightBtn) expHighlightBtn.addEventListener('click', toggleHighlight);
+        if (expJustifyBtn) expJustifyBtn.addEventListener('click', toggleJustify);
         
         loopBtn.addEventListener('click', toggleLoopMode);
         speedBtn.addEventListener('click', toggleSpeed);
