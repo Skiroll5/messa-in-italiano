@@ -702,6 +702,22 @@ document.addEventListener('DOMContentLoaded', () => {
         expLoopBtn.addEventListener('click', () => loopBtn.click());
         expSpeedBtn.addEventListener('click', () => speedBtn.click());
         
+        // Keyboard Shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+            
+            if (e.code === 'Space') {
+                e.preventDefault(); // Prevent page scroll
+                playBtn.click();
+            } else if (e.shiftKey && (e.code === 'KeyN' || e.key === 'N')) {
+                e.preventDefault();
+                nextBtn.click();
+            } else if (e.shiftKey && (e.code === 'KeyP' || e.key === 'P')) {
+                e.preventDefault();
+                prevBtn.click();
+            }
+        });
+        
         if ('mediaSession' in navigator) {
             audioPlayer.addEventListener('play', updateMediaSession);
             audioPlayer.addEventListener('pause', updateMediaSession);
