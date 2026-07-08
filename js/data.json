@@ -1,0 +1,1359 @@
+{
+  "roles": {
+    "priest": {
+      "it": "Sacerdote",
+      "ar": "الكاهن"
+    },
+    "deacon": {
+      "it": "Diacono",
+      "ar": "الشماس"
+    },
+    "congregation": {
+      "it": "Popolo",
+      "ar": "الشعب"
+    }
+  },
+  "sections": [
+    {
+      "id": "priest_001_303120_1783473222881201",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/01 - مجداً وإكراماً.mp3",
+      "text": {
+        "it": "Gloria e onore, onore e gloria alla santissima Trinità, Padre, Figlio e Spirito Santo. Pace ed edificazione per la Chiesa di Dio, una, unica, santa, cattolica ed apostolica. Amen. Ricordati, Signore, di coloro che ti hanno presentato questi doni, di coloro per i quali ti sono stati presentati, e di coloro per mezzo dei quali ti sono stati presentati. Dona a tutti loro la ricompensa celeste.",
+        "ar": "مجداً وإكراماً"
+      }
+    },
+    {
+      "id": "deacon_001_303120_1783473227480470",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/01 - مرد دورة باكر (القرابين).mp3",
+      "text": {
+        "it": "Pregate per questi doni santi e preziosi, per i nostri sacrifici e per coloro che li presentano. Signore, pietà.",
+        "ar": "مرد دورة باكر (القرابين)"
+      }
+    },
+    {
+      "id": "congregation_001_303120_1783473234539536",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/01 - الليلويا فاى بيه بى.mp3",
+      "text": {
+        "it": "Alleluia. Questo è il giorno che ha fatto il Signore: rallegriamoci ed esultiamo in esso. Signore, salvaci. Signore, facilita il nostro cammino. Benedetto colui che viene nel nome del Signore. Alleluia.",
+        "ar": "الليلويا فاى بيه بى"
+      }
+    },
+    {
+      "id": "priest_002_303220_1783473245337208",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/02 - رشومات الحمل - الرشمة الأولى.mp3",
+      "text": {
+        "it": "Nel nome del Padre, del Figlio e dello Spirito Santo, unico Dio. Benedetto Dio Padre onnipotente.",
+        "ar": "رشومات الحمل - الرشمة الأولى"
+      }
+    },
+    {
+      "id": "deacon_002_303220_1783473257986647",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/02 - آمين الأولى والثانية.mp3",
+      "text": {
+        "it": "Amen.",
+        "ar": "آمين الأولى والثانية"
+      }
+    },
+    {
+      "id": "priest_003_303320_1783473270144962",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/03 - رشومات الحمل - الرشمة الثانية.mp3",
+      "text": {
+        "it": "Benedetto il suo unigenito Figlio, Gesù Cristo, nostro Signore.",
+        "ar": "رشومات الحمل - الرشمة الثانية"
+      }
+    },
+    {
+      "id": "deacon_002_303220_178347328194657",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/02 - آمين الأولى والثانية.mp3",
+      "text": {
+        "it": "Amen.",
+        "ar": "آمين الأولى والثانية"
+      }
+    },
+    {
+      "id": "priest_004_303420_1783473293532971",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/04 - رشومات الحمل - الرشمة الثالثة.mp3",
+      "text": {
+        "it": "Benedetto lo Spirito Santo paraclito.",
+        "ar": "رشومات الحمل - الرشمة الثالثة"
+      }
+    },
+    {
+      "id": "deacon_003_303320_1783473336977108",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/03 - آمين إسباتير الصغيرة.mp3",
+      "text": {
+        "it": "Amen. Uno è il Padre santo. Uno è il Figlio santo. Uno è lo Spirito Santo. Amen. Benedetto il Signore Dio nei secoli. Lodate il Signore, nazioni tutte, esaltatelo, popoli tutti, perché la sua misericordia si è confermata su di noi, e la verità del Signore dura in eterno. Amen. Alleluia",
+        "ar": "آمين إسباتير الصغيرة"
+      }
+    },
+    {
+      "id": "congregation_002_303220_1783473350144221",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/02 - ذوكصابترى كي ايو.mp3",
+      "text": {
+        "it": "Gloria al Padre, al Figlio ed allo Spirito Santo, ora e sempre, e nei secoli dei secoli. Amen. Alleluia.",
+        "ar": "ذوكصابترى كي ايو"
+      }
+    },
+    {
+      "id": "priest_005_303520_1783473375169836",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/05 - اشليل.mp3",
+      "text": {
+        "it": "Pregate.",
+        "ar": "اشليل"
+      }
+    },
+    {
+      "id": "deacon_004_303420_1783473385796322",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/04 - ايه بى ابروس افشى اسطاسى تي.mp3",
+      "text": {
+        "it": "State in piedi per la preghiera.",
+        "ar": "ايه بى ابروس افشى اسطاسى تي"
+      }
+    },
+    {
+      "id": "priest_006_303620_1783473406194269",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/06 - ايرينى باسى.mp3",
+      "text": {
+        "it": "Pace a tutti.",
+        "ar": "ايرينى باسى"
+      }
+    },
+    {
+      "id": "congregation_003_303320_1783473419117842",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/03 - كيتو بنيفما تى سو.mp3",
+      "text": {
+        "it": "Ed allo spirito tuo.",
+        "ar": "كيتو بنيفما تى سو"
+      }
+    },
+    {
+      "id": "priest_007_303720_1783473432496133",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/07 - صلاة الشكر - الجزء الأول.mp3",
+      "text": {
+        "it": "Rendiamo dunque grazie a Dio, benefattore misericordioso, Padre del nostro Signore, Dio e Salvatore Gesù Cristo, perché ci ha difesi, aiutati, vegliati, accolti, trattati con misericordia, sostenuti e portati sino a quest’ora. Chiediamogli di custodirci ancora in questo santo giorno e per tutti i giorni della nostra vita nella pace piena, lui che è l’onnipotente Signore Dio nostro",
+        "ar": "صلاة الشكر - الجزء الأول"
+      }
+    },
+    {
+      "id": "deacon_005_303520_1783473443311196",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/05 - ابروس اف اكساستي.mp3",
+      "text": {
+        "it": "Pregate.",
+        "ar": "ابروس اف اكساستي"
+      }
+    },
+    {
+      "id": "congregation_004_303420_1783473452086495",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/04 - يارب ارحم.mp3",
+      "text": {
+        "it": "Signore, pietà.",
+        "ar": "يارب ارحم"
+      }
+    },
+    {
+      "id": "priest_008_303820_1783473465175179",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/08 - صلاة الشكر - الجزء الثاني.mp3",
+      "text": {
+        "it": "Sovrano Signore Dio onnipotente, Padre del nostro Signore, Dio e Salvatore Gesù Cristo, ti rendiamo grazie secondo ogni cosa, per ogni cosa ed in ogni cosa, perché ci hai difesi, aiutati, vegliati, accolti, trattati con misericordia, sostenuti e portati sino a quest’ora.",
+        "ar": "صلاة الشكر - الجزء الثاني"
+      }
+    },
+    {
+      "id": "deacon_006_303620_1783473475955756",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/06 - اطلبوا لكى يرحمنا الله.mp3",
+      "text": {
+        "it": "Pregate affinché Dio abbia pietà e misericordia di noi, perché ci esaudisca, ci aiuti, accolga le preghiere e le suppliche dei suoi santi in favore nostro per il bene in ogni tempo, perché ci renda degni di partecipare della comunione dei suoi santi misteri benedetti, per la remissione dei nostri peccati.",
+        "ar": "اطلبوا لكى يرحمنا الله"
+      }
+    },
+    {
+      "id": "congregation_004_303420_178347349346132",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/04 - يارب ارحم.mp3",
+      "text": {
+        "it": "Signore, pietà.",
+        "ar": "يارب ارحم"
+      }
+    },
+    {
+      "id": "congregation_005_303520_1783473586229121",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/05 - لحن سوتيس آمين.mp3",
+      "text": {
+        "it": "Salvati. Amen. Ed allo spirito tuo.",
+        "ar": "لحن سوتيس آمين"
+      }
+    },
+    {
+      "id": "congregation_006_303620_1783473612934204",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/06 - ني صافيف تيرو.mp3",
+      "text": {
+        "it": "",
+        "ar": "ني صافيف تيرو"
+      }
+    },
+    {
+      "id": "congregation_007_3037202d_1783473957246619",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/07 - تي شورى.mp3",
+      "text": {
+        "it": "Il turibolo d'oro è la Vergine, i suoi aromi sono il nostro Salvatore. Ella lo ha generato egli ci ha salvati e ha rimesso i nostri peccati.",
+        "ar": "تي شورى"
+      }
+    },
+    {
+      "id": "congregation_008_3038202d_1783473987070936",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/08 - مرد الابركسيس السنوى - شيرى ني ماريا.mp3",
+      "text": {
+        "it": "Ave a te, o Maria, dolce colomba, che hai generato per noi Dio, il Verbo. Veramente tu sei benedetto, unitamente al tuo buon Padre ed allo Spirito Santo, perché sei venuto e ci hai salvati.",
+        "ar": "مرد الابركسيس السنوى - شيرى ني ماريا"
+      }
+    },
+    {
+      "id": "congregation_009_3039202d_1783474060570363",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/09 - أجيوس.mp3",
+      "text": {
+        "it": "",
+        "ar": "أجيوس"
+      }
+    },
+    {
+      "id": "priest_005_3035202d_1783474123265434",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/05 - اشليل.mp3",
+      "text": {
+        "it": "Pregate.",
+        "ar": "اشليل"
+      }
+    },
+    {
+      "id": "deacon_004_3034202d_1783474130567780",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/04 - ايه بى ابروس افشى اسطاسى تي.mp3",
+      "text": {
+        "it": "State in piedi per la preghiera.",
+        "ar": "ايه بى ابروس افشى اسطاسى تي"
+      }
+    },
+    {
+      "id": "priest_006_3036202d_1783474141319452",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/06 - ايرينى باسى.mp3",
+      "text": {
+        "it": "Pace a tutti.",
+        "ar": "ايرينى باسى"
+      }
+    },
+    {
+      "id": "congregation_003_3033202d_1783474146737407",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/03 - كيتو بنيفما تى سو.mp3",
+      "text": {
+        "it": "Ed allo spirito tuo.",
+        "ar": "كيتو بنيفما تى سو"
+      }
+    },
+    {
+      "id": "priest_009_3039202d_1783474175431785",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/09 - أوشية الإنجيل - الجزء الأول.mp3",
+      "text": {
+        "it": "Sovrano Signore Gesù Cristo Iddio nostro, che hai detto ai tuoi santi ed onorati discepoli e puri apostoli: “Molti profeti ed uomini giusti hanno desiderato vedere ciò che voi vedete e non lo videro, ed udire ciò che voi udite e non lo udirono; perciò beati sono i vostri occhi perché vedono, e i vostri orecchi perché odono”; che possiamo essere degni di ascoltare e mettere in pratica i tuoi santi vangeli, per le preghiere dei tuoi santi.",
+        "ar": "أوشية الإنجيل - الجزء الأول"
+      }
+    },
+    {
+      "id": "deacon_007_3037202d_1783474194078116",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/07 - صلوا من اجل الإنجيل المقدس.mp3",
+      "text": {
+        "it": "Pregate per il santo vangelo.",
+        "ar": "صلوا من اجل الإنجيل المقدس"
+      }
+    },
+    {
+      "id": "congregation_004_3034202d_1783474212128986",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/04 - يارب ارحم.mp3",
+      "text": {
+        "it": "Signore, pietà.",
+        "ar": "يارب ارحم"
+      }
+    },
+    {
+      "id": "priest_010_3130202d_1783474230554474",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/10 - أوشية الإنجيل - الجزء الثاني.mp3",
+      "text": {
+        "it": "Ricordati dunque, o Sovrano nostro, di tutti coloro che ci hanno domandato di fare memoria di loro nelle nostre preghiere e suppliche che leviamo a te, Signore nostro Dio. Quelli che si sono già addormentati, falli riposare; quelli che sono malati, sanali. Perché tu sei vita di noi tutti, salvezza di noi tutti, speranza di noi tutti, cura di noi tutti e risurrezione di noi tutti...",
+        "ar": "أوشية الإنجيل - الجزء الثاني"
+      }
+    },
+    {
+      "id": "congregation_010_3130202d_1783474270730464",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/10 - مرد المزمور السنوى.mp3",
+      "text": {
+        "it": "Alleluia.",
+        "ar": "مرد المزمور السنوى"
+      }
+    },
+    {
+      "id": "deacon_008_3038202d_1783474309841564",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/08 - إسطاسى تبه ميتا فوفو.mp3",
+      "text": {
+        "it": "State in piedi nel timore di Dio. Ascoltiamo il santo vangelo.",
+        "ar": "إسطاسى تبه ميتا فوفو"
+      }
+    },
+    {
+      "id": "priest_011_3131202d_1783474315488523",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/11 - اف اسماروؤت - الأنجيل.mp3",
+      "text": {
+        "it": "Benedetto colui che viene nel nome del Signore. Signore, benedici. Lettura del santo vangelo secondo *N*.",
+        "ar": "اف اسماروؤت - الأنجيل"
+      }
+    },
+    {
+      "id": "congregation_011_3131202d_1783474338888447",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/11 - ذوكصاصى كيريه.mp3",
+      "text": {
+        "it": "Gloria a Te, o Signore.",
+        "ar": "ذوكصاصى كيريه"
+      }
+    },
+    {
+      "id": "congregation_012_3132202d_1783474508711516",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/12 - قراءة الإنجيل.mp3",
+      "text": {
+        "it": "",
+        "ar": "قراءة الإنجيل"
+      }
+    },
+    {
+      "id": "congregation_013_3133202d_1783474524015577",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/13 - مرد اللإنجيل السنوي - جى اف اسماروؤت.mp3",
+      "text": {
+        "it": "Perché è benedetto il Padre, il Figlio e lo Spirito Santo, Trinità perfetta; noi lo adoriamo e lo glorifichiamo.",
+        "ar": "مرد اللإنجيل السنوي - جى اف اسماروؤت"
+      }
+    },
+    {
+      "id": "deacon_009_3039202d_1783474374986534",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/09 - إن صوفيا.mp3",
+      "text": {
+        "it": "Nella sapienza di Dio stiamo attenti. Signore, pietà. Signore, pietà. In verità,",
+        "ar": "إن صوفيا"
+      }
+    },
+    {
+      "id": "priest_012_3132202d_1783474408391471",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/12 - صلاة الصلح - الجزء الأول.mp3",
+      "text": {
+        "it": "O Dio grande ed eterno, tu che hai plasmato l’uomo senza corruzione e hai distrutto la morte che era entrata nel mondo a causa dell’invidia del diavolo, per mezzo della vivificante venuta del tuo unigenito Figlio, nostro Signore, Dio e Salvatore Gesù Cristo. Tu, che hai riempito la terra della pace celeste, per la quale la schiera degli Angeli ti glorifica dicendo: \"Gloria a Dio nell’alto dei cieli, pace sulla terra e benevolenza fra gli uomini\".",
+        "ar": "صلاة الصلح - الجزء الأول"
+      }
+    },
+    {
+      "id": "deacon_010_3130202d_1783474423111788",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/10 - مرد صلاة الصلح - صلوا من اجل السلام الكامل.mp3",
+      "text": {
+        "it": "Pregate per la pace perfetta e per l’amore, e per i santi baci degli apostoli.",
+        "ar": "مرد صلاة الصلح - صلوا من اجل السلام الكامل"
+      }
+    },
+    {
+      "id": "congregation_004_3034202d_1783474435010119",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/04 - يارب ارحم.mp3",
+      "text": {
+        "it": "Signore, pietà.",
+        "ar": "يارب ارحم"
+      }
+    },
+    {
+      "id": "priest_013_3133202d_1783474456400544",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/13 - صلاة الصلح - الجزء الثانى.mp3",
+      "text": {
+        "it": "Secondo il tuo beneplacito, o Dio, colma i nostri cuori della tua pace, purificaci da ogni impurità, ogni inganno, ogni ipocrisia, ogni scelleratezza e ricordo del male che conduce alla morte. Rendici degni, o nostro Sovrano, di salutarci reciprocamente con il santo bacio, affinché, senza incorrere in giudizio, possiamo essere partecipi del tuo dono immortale e celeste, in Gesù Cristo nostro Signore.",
+        "ar": "صلاة الصلح - الجزء الثانى"
+      }
+    },
+    {
+      "id": "deacon_011_3131202d_1783474476341397",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/11 - قبلوا بعضكم بعضاً.mp3",
+      "text": {
+        "it": "Salutatevi reciprocamente con un bacio santo. Signore, pietà. Signore, pietà. Signore, pietà. Sì, o Signore, tu che sei Gesù Cristo, il Figlio di Dio, ascoltaci ed abbi pietà di noi. Offrite secondo l’ordine. State in piedi con timore. Guardate verso oriente. Stiamo attenti.",
+        "ar": "قبلوا بعضكم بعضاً"
+      }
+    },
+    {
+      "id": "congregation_015_3135202d_1783474637299158",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/15 - بشفاعات والدة الإله.mp3",
+      "text": {
+        "it": "Per le intercessioni della Madre di Dio santa Maria, o Signore, concedici la remissione dei nostri peccati. Ti adoriamo, o Cristo, con il tuo buon Padre e lo Spirito Santo, perché sei venuto e ci hai salvati. Pietà di pace, sacrificio di lode.",
+        "ar": "بشفاعات والدة الإله"
+      }
+    },
+    {
+      "id": "priest_014_3134202d_178347465800483",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/14 - الرب مع جميعكم.mp3",
+      "text": {
+        "it": "Il Signore sia con tutti voi.",
+        "ar": "الرب مع جميعكم"
+      }
+    },
+    {
+      "id": "congregation_016_3136202d_1783474683584939",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/16 - ومع روحك أيضاً.mp3",
+      "text": {
+        "it": "E con il tuo spirito.",
+        "ar": "ومع روحك أيضاً"
+      }
+    },
+    {
+      "id": "priest_015_3135202d_178347469592068",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/15 - أين هى قلوبكم.mp3",
+      "text": {
+        "it": "In alto i vostri cuori.",
+        "ar": "أين هى قلوبكم"
+      }
+    },
+    {
+      "id": "congregation_017_3137202d_178347470699891",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/17 - هى عند الرب.mp3",
+      "text": {
+        "it": "Sono rivolti al Signore.",
+        "ar": "هى عند الرب"
+      }
+    },
+    {
+      "id": "priest_016_3136202d_1783474715745992",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/16 - فلنشكر الرب.mp3",
+      "text": {
+        "it": "Rendiamo grazie al Signore.",
+        "ar": "فلنشكر الرب"
+      }
+    },
+    {
+      "id": "congregation_018_3138202d_1783474730551187",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/18 - مستحق وعادل.mp3",
+      "text": {
+        "it": "È degno e giusto.",
+        "ar": "مستحق وعادل"
+      }
+    },
+    {
+      "id": "priest_017_3137202d_1783474761297343",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/17 - مستحق وعادل.mp3",
+      "text": {
+        "it": "È degno e giusto, è degno e giusto: è veramente così, degno e giusto. Tu che sei Sovrano Signore Dio di verità, colui che esiste da prima dei secoli e regna per tutti i tempi, colui che dimora nelle regioni superne ed osserva le cose umili; colui che ha creato il cielo, la terra, il mare e quanto è in essi, Padre del nostro Signore, Dio e Salvatore Gesù Cristo. Per mezzo di lui tu hai fatto tutte le cose, quelle visibili e quelle invisibili. Tu che sei colui che siede sul trono della sua gloria, adorato da ogni santa potenza.",
+        "ar": "مستحق وعادل"
+      }
+    },
+    {
+      "id": "deacon_012_3132202d_1783475045380920",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/12 - أيها الجلوس قفوا.mp3",
+      "text": {
+        "it": "Quanti siete seduti, alzatevi.",
+        "ar": "أيها الجلوس قفوا"
+      }
+    },
+    {
+      "id": "priest_018_3138202d_1783475057819153",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/18 - مستحق وعادل - الذى يقف امامه.mp3",
+      "text": {
+        "it": "Colui innanzi al quale stanno gli Angeli, gli Arcangeli, i Principati, le Potestà, i Troni, le Dominazioni e le Virtù.",
+        "ar": "مستحق وعادل - الذى يقف امامه"
+      }
+    },
+    {
+      "id": "deacon_013_3133202d_1783475065573905",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/13 - وإلى الشرق انظروا.mp3",
+      "text": {
+        "it": "Guardate verso oriente.",
+        "ar": "وإلى الشرق انظروا"
+      }
+    },
+    {
+      "id": "priest_019_3139202d_178347507223360",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/19 - مستحق وعادل - أنت هو الذى يقف حولك.mp3",
+      "text": {
+        "it": "Intorno a te stanno i Cherubini dagli occhi innumerevoli ed i Serafini dalle sei ali, che ti inneggiano continuamente senza posa, dicendo:",
+        "ar": "مستحق وعادل - أنت هو الذى يقف حولك"
+      }
+    },
+    {
+      "id": "deacon_014_3134202d_1783475079741429",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/14 - ننصت.mp3",
+      "text": {
+        "it": "Stiamo attenti.",
+        "ar": "ننصت"
+      }
+    },
+    {
+      "id": "congregation_019_3139202d_1783475093194258",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/19 - الشاروبيم يسجدون لك.mp3",
+      "text": {
+        "it": "I Cherubini ti adorano ed i Serafini ti glorificano, gridando e dicendo: \"Santo, santo, santo il Signore sabaoth\". I cieli e la terra sono pieni della Tua Santa gloria.",
+        "ar": "الشاروبيم يسجدون لك"
+      }
+    },
+    {
+      "id": "priest_020_3230202d_178347513223617",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/20 - أجيوس.mp3",
+      "text": {
+        "it": "Santo, santo, santo tu sei veramente, Signore nostro Dio. Tu ci hai plasmati, ci hai creati e posti nel paradiso di delizia. Quando trasgredimmo il tuo comando, a causa dell’inganno del serpente, fummo privati della vita eterna e fummo scacciati dal paradiso di delizia. Tu non ci hai allontanati da te per sempre, ma ci hai sempre visitati per mezzo dei tuoi santi profeti, e negli ultimi giorni hai manifestato te stesso a noi, che sedevamo nelle tenebre e nell’ombra della morte, per mezzo del tuo unigenito Figlio, nostro Signore, Dio e Salvatore Gesù Cristo, il quale è dallo Spirito Santo e dalla santa Vergine Maria.",
+        "ar": "أجيوس"
+      }
+    },
+    {
+      "id": "congregation_020_3230202d_1783475147191468",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/20 - آمين.mp3",
+      "text": {
+        "it": "Amen.",
+        "ar": "آمين"
+      }
+    },
+    {
+      "id": "priest_021_3231202d_1783475164351864",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/21 - تجسد وتأنس.mp3",
+      "text": {
+        "it": "Egli si è incarnato e si è fatto uomo, ci ha mostrato le vie della salvezza, ci ha donato la nascita dall’alto attraverso l’acqua e lo Spirito. Ci ha resi per sé un popolo riunito e ci ha santificati per mezzo del suo Santo Spirito. Egli, che ha amato i suoi che erano nel mondo, ha consegnato se stesso per la nostra redenzione alla morte che regnava su di noi, per la quale eravamo prigionieri e venduti a causa dei nostri peccati. Egli è disceso all’ade per mezzo della croce.",
+        "ar": "تجسد وتأنس"
+      }
+    },
+    {
+      "id": "congregation_021_3231202d_1783475167849698",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/21 - حقا نؤمن.mp3",
+      "text": {
+        "it": "Amen, crediamo.",
+        "ar": "حقا نؤمن"
+      }
+    },
+    {
+      "id": "priest_022_3232202d_1783475185823273",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/22 - وقام من الأموات.mp3",
+      "text": {
+        "it": "È resuscitato dai morti il terzo giorno, è asceso ai cieli e si è assiso alla tua destra, o Padre. Egli ha stabilito il giorno della retribuzione, nel quale apparirà per giudicare il mondo in giustizia, e per dare a ciascuno secondo le proprie opere.",
+        "ar": "وقام من الأموات"
+      }
+    },
+    {
+      "id": "congregation_022_3232202d_1783475206476149",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/22 - كرحمتك يارب وليس كخطايانا.mp3",
+      "text": {
+        "it": "Secondo la tua misericordia, Signore, e non secondo i nostri peccati.",
+        "ar": "كرحمتك يارب وليس كخطايانا"
+      }
+    },
+    {
+      "id": "priest_023_3233202d_1783475216329891",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/23 - ووضع لنا هذا السر العظيم.mp3",
+      "text": {
+        "it": "Egli ci ha lasciato questo grande mistero di devozione. Avendo stabilito di consegnare se stesso alla morte per la vita del mondo.",
+        "ar": "ووضع لنا هذا السر العظيم"
+      }
+    },
+    {
+      "id": "congregation_024_3234202d_1783475225620648",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/24 - نؤمن.mp3",
+      "text": {
+        "it": "Crediamo.",
+        "ar": "نؤمن"
+      }
+    },
+    {
+      "id": "priest_024_3234202d_1783475241355290",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/24 - أخذ خبزا.mp3",
+      "text": {
+        "it": "Egli prese il pane nelle sue mani sante, pure, immacolate, beate e vivificanti.",
+        "ar": "أخذ خبزا"
+      }
+    },
+    {
+      "id": "congregation_025_3235202d_1783475248327872",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/25 - نؤمن أن هذا هو بالحقيقة.mp3",
+      "text": {
+        "it": "Noi crediamo che questa è la verità. Amen.",
+        "ar": "نؤمن أن هذا هو بالحقيقة"
+      }
+    },
+    {
+      "id": "priest_025_3235202d_1783475255304672",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/25 - ونظر إلى فوق.mp3",
+      "text": {
+        "it": "Alzò gli occhi al cielo verso di te, o Dio, che sei il Padre suo ed il Sovrano di ogni cosa, rese grazie, lo benedisse, lo santificò.",
+        "ar": "ونظر إلى فوق"
+      }
+    },
+    {
+      "id": "congregation_026_3236202d_1783475318058351",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/26 - نؤمن ونعترف ونمجد.mp3",
+      "text": {
+        "it": "Amen. Noi lo crediamo, lo proclamiamo e lo glorifichiamo.",
+        "ar": "نؤمن ونعترف ونمجد"
+      }
+    },
+    {
+      "id": "priest_026_3236202d_178347535239432",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/26 - وقسمه.mp3",
+      "text": {
+        "it": "lo spezzò, lo diede ai suoi santi discepoli ed apostoli puri, dicendo: \"Prendetene e mangiatene tutti; questo infatti è il mio Corpo, spezzato per voi e per molti, per essere dato in remissione dei peccati. Fate questo in memoria di me\".",
+        "ar": "وقسمه"
+      }
+    },
+    {
+      "id": "congregation_027_3237202d_1783475373082906",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/27 - هذا هو بالحقيقة آمين.mp3",
+      "text": {
+        "it": "Questa è la verità. Amen.",
+        "ar": "هذا هو بالحقيقة آمين"
+      }
+    },
+    {
+      "id": "priest_027_3237202d_1783475383746368",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/27 - هكذا الكأس أيضا.mp3",
+      "text": {
+        "it": "Allo stesso modo anche il calice, dopo la cena; vi mescé del vino e dell’acqua, rese grazie, lo benedisse, lo santificò.",
+        "ar": "هكذا الكأس أيضا"
+      }
+    },
+    {
+      "id": "congregation_028_3238202d_1783475409590439",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/28 - وأيضا نؤمن ونعترف ونمجد.mp3",
+      "text": {
+        "it": "Amen. Noi lo crediamo, lo proclamiamo e lo glorifichiamo.",
+        "ar": "وأيضا نؤمن ونعترف ونمجد"
+      }
+    },
+    {
+      "id": "priest_028_3238202d_1783475451613739",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/28 - وذاق.mp3",
+      "text": {
+        "it": "lo gustò e lo diede ai suoi santi discepoli ed apostoli puri, dicendo: \"Prendetene e bevetene tutti; questo infatti è il mio Sangue della nuova alleanza, versato per voi e per molti, per essere dato in remissione dei peccati. Fate questo in memoria di me\".",
+        "ar": "وذاق"
+      }
+    },
+    {
+      "id": "congregation_029_3239202d_1783475470447863",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/29 - وهذا هو أيضا بالحقيقة.mp3",
+      "text": {
+        "it": "Questa è la verità. Amen.",
+        "ar": "وهذا هو أيضا بالحقيقة"
+      }
+    },
+    {
+      "id": "priest_029_3239202d_1783475491591442",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/29 - لأن كل مرة تأكلون من هذا الخبز.mp3",
+      "text": {
+        "it": "Infatti ogni volta che mangerete di questo pane e berrete di questo calice, annunzierete la mia morte, professerete la mia resurrezione e rinnoverete il mio ricordo finché io venga.",
+        "ar": "لأن كل مرة تأكلون من هذا الخبز"
+      }
+    },
+    {
+      "id": "congregation_030_3330202d_1783475521605928",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/30 - آمين آمين آمين.mp3",
+      "text": {
+        "it": "Amen, amen, amen. Annunziamo la tua morte, o Signore, professiamo la tua santa risurrezione ed ascensione. Ti lodiamo, ti benediciamo, ti rendiamo grazie e ti preghiamo, o Dio nostro.",
+        "ar": "آمين آمين آمين"
+      }
+    },
+    {
+      "id": "priest_030_3330202d_1783475531343564",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/30 - ففيما نحن أيضا.mp3",
+      "text": {
+        "it": "Noi stessi, pertanto, facendo memoria della sua santa passione, della sua resurrezione dalla morte, della sua ascensione ai cieli, della sua sessione alla tua destra, o Padre, della sua seconda venuta dai cieli, tremenda e piena di gloria, noi ti presentiamo i tuoi doni da ciò che è tuo, secondo tutto, per tutto ed in tutto.",
+        "ar": "ففيما نحن أيضا"
+      }
+    },
+    {
+      "id": "deacon_015_3135202d_1783475537587555",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/15 - أسجدوا لله بخوف ورعدة.mp3",
+      "text": {
+        "it": "Adorate Dio con timore e tremore.",
+        "ar": "أسجدوا لله بخوف ورعدة"
+      }
+    },
+    {
+      "id": "congregation_031_3331202d_1783475550058826",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/31 - نسبحك نباركك نشكرك يارب.mp3",
+      "text": {
+        "it": "Noi ti lodiamo, ti benediciamo, ti serviamo e ti adoriamo.",
+        "ar": "نسبحك نباركك نشكرك يارب"
+      }
+    },
+    {
+      "id": "deacon_016_3136202d_178347557870773",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/16 - ننصت آمين.mp3",
+      "text": {
+        "it": "Stiamo attenti. Amen.",
+        "ar": "ننصت آمين"
+      }
+    },
+    {
+      "id": "priest_031_3331202d_178347559075094",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/31 - وهذا الخبز يجعله.mp3",
+      "text": {
+        "it": "E che questo pane lo faccia il Corpo santo di lui.",
+        "ar": "وهذا الخبز يجعله"
+      }
+    },
+    {
+      "id": "congregation_032_3332202d_1783475595445176",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/32 - نؤمن.mp3",
+      "text": {
+        "it": "Crediamo.",
+        "ar": "نؤمن"
+      }
+    },
+    {
+      "id": "priest_032_3332202d_1783475607275655",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/32 - وهذه الكأس أيضا.mp3",
+      "text": {
+        "it": "E questo calice, ugualmente, il Sangue prezioso della nuova alleanza di lui.",
+        "ar": "وهذه الكأس أيضا"
+      }
+    },
+    {
+      "id": "congregation_032_3332202d_1783475627548790",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/32 - نؤمن.mp3",
+      "text": {
+        "it": "Crediamo.",
+        "ar": "نؤمن"
+      }
+    },
+    {
+      "id": "priest_033_3333202d_1783475634451758",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/33 - ربنا وإلهنا ومخلصنا يسوع المسيح.mp3",
+      "text": {
+        "it": "il nostro Signore, Dio e Salvatore Gesù Cristo, per essere dato in remissione dei peccati e per la vita eterna in favore di coloro che ne parteciperanno.",
+        "ar": "ربنا وإلهنا ومخلصنا يسوع المسيح"
+      }
+    },
+    {
+      "id": "congregation_033_3333202d_1783475647348451",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/33 - يارب ارحم، يارب ارحم، يارب ارحم.mp3",
+      "text": {
+        "it": "Signore, pietà. Signore, pietà. Signore, pietà.",
+        "ar": "يارب ارحم، يارب ارحم، يارب ارحم"
+      }
+    },
+    {
+      "id": "priest_034_3334202d_1783475659982323",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/34 - إجعلنا مستحقين - أوشية السلام.mp3",
+      "text": {
+        "it": "Rendici tutti degni, o Sovrano nostro, di partecipare dei tuoi santi, per la purificazione delle nostre anime, dei nostri corpi e dei nostri spiriti, perché diventiamo un solo Corpo ed un solo spirito, ed abbiamo parte ed eredità con tutti i santi che ti furono graditi sin dal principio. Ricordati, o Signore, della pace della Chiesa di Dio, una, santa, cattolica ed apostolica.",
+        "ar": "إجعلنا مستحقين - أوشية السلام"
+      }
+    },
+    {
+      "id": "deacon_017_3137202d_17834756697367",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/17 - أوشية السلام.mp3",
+      "text": {
+        "it": "Pregate per la pace della Chiesa di Dio, una, santa, cattolica, apostolica ed ortodossa.",
+        "ar": "أوشية السلام"
+      }
+    },
+    {
+      "id": "congregation_034_3334202d_1783475681918813",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/34 - يارب ارحم الأواشى.mp3",
+      "text": {
+        "it": "Signore, pietà.",
+        "ar": "يارب ارحم الأواشى"
+      }
+    },
+    {
+      "id": "priest_035_3335202d_178347569139459",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/35 - هذه التى إقتنيتها - أوشية الآباء.mp3",
+      "text": {
+        "it": "Quella che ti sei acquistata per mezzo del Sangue prezioso del tuo Cristo. Conservala nella pace con tutti i vescovi ortodossi che sono in essa. In primo luogo ricordati, o Signore, del nostro beato padre, l’onorato arcivescovo, il patriarca abba *N*. E del suo Confratello nel servizio, nostro padre, il vescovo abba *N*.",
+        "ar": "هذه التى إقتنيتها - أوشية الآباء"
+      }
+    },
+    {
+      "id": "deacon_018_3138202d_1783475761076522",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/18 - أوشية الآباء.mp3",
+      "text": {
+        "it": "Pregate per il Sommo Pontefice, il Papa Anba *N*, Patriarca, Signore, Arcivescovo della grande città di Alessandria, E del suo Compagno nel servizio, nostro padre, il vescovo abba *N*. e per tutti i nostri vescovi ortodossi.",
+        "ar": "أوشية الآباء"
+      }
+    },
+    {
+      "id": "congregation_034_3334202d_1783475780242140",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/34 - يارب ارحم الأواشى.mp3",
+      "text": {
+        "it": "Signore, pietà.",
+        "ar": "يارب ارحم الأواشى"
+      }
+    },
+    {
+      "id": "priest_036_3336202d_1783475786935798",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/36 - والذين يفصلون معه - أوشية القسوس والقمامصة.mp3",
+      "text": {
+        "it": "E coloro che spezzano con rettitudine la parola di verità assieme a lui: concedili alla tua santa Chiesa per pascere il tuo gregge nella pace. Ricordati, o Signore, degli igumeni, dei presbiteri ortodossi e dei diaconi.",
+        "ar": "والذين يفصلون معه - أوشية القسوس والقمامصة"
+      }
+    },
+    {
+      "id": "deacon_019_3139202d_1783475791472350",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/19 - أوشية القمامصة والقصوص.mp3",
+      "text": {
+        "it": "Pregate per gli igumeni, per i sacerdoti, per i diaconi, per i suddiaconi e per i sette ordini della Chiesa di Dio.",
+        "ar": "أوشية القمامصة والقصوص"
+      }
+    },
+    {
+      "id": "congregation_034_3334202d_1783475798247504",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/34 - يارب ارحم الأواشى.mp3",
+      "text": {
+        "it": "Signore, pietà.",
+        "ar": "يارب ارحم الأواشى"
+      }
+    },
+    {
+      "id": "priest_037_3337202d_1783475805163308",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/37 - وكل الخدام.mp3",
+      "text": {
+        "it": "E di tutti i ministri, di tutti coloro che sono nella verginità e nella purezza, e di tutto il tuo popolo fedele. Ricordati, o Signore, di aver pietà di tutti noi.",
+        "ar": "وكل الخدام"
+      }
+    },
+    {
+      "id": "congregation_035_3335202d_1783475810988366",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/35 - ارحمنا يا الله الآب.mp3",
+      "text": {
+        "it": "Pietà di noi, o Dio Padre Onnipotente.",
+        "ar": "ارحمنا يا الله الآب"
+      }
+    },
+    {
+      "id": "priest_038_3338202d_1783475822892961",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/38 - أوشية الموضع.mp3",
+      "text": {
+        "it": "Ricordati, o Signore, della salvezza di questo santo luogo che è tuo, di ogni luogo e di ogni monastero dei nostri padri ortodossi.",
+        "ar": "أوشية الموضع"
+      }
+    },
+    {
+      "id": "deacon_020_3230202d_1783475832359617",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/20 - أوشية الموضع.mp3",
+      "text": {
+        "it": "Pregate per la salvezza del mondo, di questa nostra città, di tutte le città, regioni, isole e monasteri.",
+        "ar": "أوشية الموضع"
+      }
+    },
+    {
+      "id": "congregation_034_3334202d_1783475838929778",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/34 - يارب ارحم الأواشى.mp3",
+      "text": {
+        "it": "Signore, pietà.",
+        "ar": "يارب ارحم الأواشى"
+      }
+    },
+    {
+      "id": "priest_039_3339202d_1783475845787732",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/39 - والساكنين فيها - أوشية المياه، الزروع وأهوية السماء.mp3",
+      "text": {
+        "it": "e di tutti coloro che vi abitano nella fede di Dio. Degnati, o Signore, di benedire le arie del cielo ed i frutti della terra, le acque del fiume, i semi, le erbe e le piante del campo in quest’anno.",
+        "ar": "والساكنين فيها - أوشية المياه، الزروع وأهوية السماء"
+      }
+    },
+    {
+      "id": "deacon_021_3231202d_178347587733944",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/21 - أوشية المياه، الزروع وأهوية السماء.mp3",
+      "text": {
+        "it": "Pregate per le arie del cielo ed i frutti della terra, per gli alberi, per la giusta salita delle acque fluviali, per i semi, le erbe e le piante del campo in quest’anno; che Cristo nostro Dio le benedica, affinché possano moltiplicarsi e crescere sino al loro sviluppo in frutti abbondanti. Che egli abbia misericordia delle sue creature, opera delle proprie mani, e ci perdoni i nostri peccati.",
+        "ar": "أوشية المياه، الزروع وأهوية السماء"
+      }
+    },
+    {
+      "id": "congregation_036_3336202d_1783475886139470",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/36 - يارب ارحم، يارب ارحم، يارب ارحم.mp3",
+      "text": {
+        "it": "Signore, pietà; Signore, pietà; Signore, pietà.",
+        "ar": "يارب ارحم، يارب ارحم، يارب ارحم"
+      }
+    },
+    {
+      "id": "congregation_036_3336202d_1783475979655723",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/36 - يارب ارحم، يارب ارحم، يارب ارحم.mp3",
+      "text": {
+        "it": "Signore, pietà; Signore, pietà; Signore, pietà.",
+        "ar": "يارب ارحم، يارب ارحم، يارب ارحم"
+      }
+    },
+    {
+      "id": "priest_040_3430202d_1783475899575231",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/40 - إصعدها كمقدارها.mp3",
+      "text": {
+        "it": "Falli crescere secondo la misura, secondo la tua grazia. Allieta il volto della terra, fa’ che siano inebriati i suoi solchi e moltiplicati i suoi frutti; preparalo per il seme e la mietitura. Amministra la nostra vita come conviene. Benedici la corona dell’anno con la tua benignità, a motivo del povero del tuo popolo, della vedova, dell’orfano, dell’ospite, dello straniero, e di noi tutti che ti supplichiamo ed invochiamo il tuo santo Nome. Infatti gli occhi di tutti sono rivolti a te, giacché tu dai loro il nutrimento al momento opportuno. Agisci con noi secondo la tua bontà, tu che dai nutrimento ad ogni carne. Colma i nostri cuori di gioia e di letizia, affinché, sponendo del necessario in ogni cosa e sempre, possiamo sovrabbondare in ogni opera buona.",
+        "ar": "إصعدها كمقدارها"
+      }
+    },
+    {
+      "id": "priest_041_3431202d_1783475958077888",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/41 - أوشية القرابين.mp3",
+      "text": {
+        "it": "Ricordati, o Signore, di coloro che ti hanno presentato questi doni, di coloro per i quali ti sono stati presentati, e di coloro per mezzo dei quali ti sono stati presentati. Dona a tutti loro la ricompensa celeste.",
+        "ar": "أوشية القرابين"
+      }
+    },
+    {
+      "id": "deacon_022_3232202d_1783475964570822",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/22 - أوشية القرابين.mp3",
+      "text": {
+        "it": "Pregate per questi doni santi e preziosi, per i nostri sacrifici e per coloro che li presentano.",
+        "ar": "أوشية القرابين"
+      }
+    },
+    {
+      "id": "congregation_037_3337202d_1783475991537121",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/37 - يارب ارحم (ختام الأواشى).mp3",
+      "text": {
+        "it": "Signore, pietà.",
+        "ar": "يارب ارحم (ختام الأواشى)"
+      }
+    },
+    {
+      "id": "priest_042_3432202d_1783476028232346",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/42 - مجمع القديسين.mp3",
+      "text": {
+        "it": "Poiché questo, o Signore, è il precetto del tuo Figlio unigenito, che noi partecipiamo alla commemorazione dei tuoi santi. Degnati, o Signore, di ricordarti di tutti i santi che ti furono graditi sin dal principio; dei nostri santi padri i patriarchi, dei profeti, degli apostoli, dei predicatori, degli evangelisti, dei martiri, dei confessori e di ogni spirito giusto, giunto a compimento nella fede. Specialmente della santa, piena di gloria, sempre vergine, la pura Madre di Dio, santa Maria, colei che in verità ha dato alla luce Dio il Verbo; di san Giovanni il precursore, battista e martire; di santo Stefano, arcidiacono e protomartire; del contemplatore di Dio, l’evangelista Marco, apostolo santo e martire; del patriarca san Severo, del nostro maestro Dioscoro, di sant’Atanasio isoapostolo, di san Pietro ieromartire e sommo sacerdote, i san Giovanni Crisostomo, san Teodosio, san Teofilo, san Demetrio, san Cirillo, san Basilio, san Gregorio il Teologo, san Gregorio il Taumaturgo, san Gregorio Armeno; dei trecentodiciotto riuniti a Nicea, dei centocinquanta a Costantinopoli e dei duecento a Efeso; del nostro giusto padre il grande abba Antonio, del giusto abba Paolo, dei tre santi abba Macario, e di tutti i loro figli in Cristo portatori di croce; del nostro padre abba Giovanni l’igumeno, del nostro padre abba Pshoi, il giusto uomo perfetto, il prediletto del nostro buon Salvatore. E del nostro padre abba Paolo di Tamma e di Ezechiele suo discepolo; dei miei maestri i padri romani santi Massimo e Domezio, dei quarantanove martiri gli anziani di Scete, del forte e santo abba Musa e di Giovanni Kama presbitero. E del nostro padre abba Daniele igumeno, del nostro padre abba Isidoro presbitero, del nostro padre abba Pacomio cenobita, e di Teodoro suo discepolo, del nostro padre abba Scenuti l’archimandrita, e di abba Besas suo discepolo. E di tutti i cori dei tuoi santi: per le loro preghiere e suppliche, abbi pietà di tutti noi e salvaci a motivo del tuo santo Nome, che è stato invocato su di noi.",
+        "ar": "مجمع القديسين"
+      }
+    },
+    {
+      "id": "deacon_023_3233202d_1783476055416336",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/23 - القارئون.mp3",
+      "text": {
+        "it": "Che i lettori menzionino i nomi dei nostri santi padri i patriarchi che si sono addormentati; il Signore conceda il riposo a tutte le loro anime, e ci perdoni i nostri peccati.",
+        "ar": "القارئون"
+      }
+    },
+    {
+      "id": "congregation_038_3338202d_1783476072649570",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/38 - بركتهم المقدسة.mp3",
+      "text": {
+        "it": "Che la loro santa benedizione sia con tutti noi. Amen. Gloria a Te, Signore. Signore, pietà. Signore, pietà. Signore, benedici. Signore, dà riposo. Amen",
+        "ar": "بركتهم المقدسة"
+      }
+    },
+    {
+      "id": "priest_043_3433202d_1783476123265366",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/43 - أولئك يارب.mp3",
+      "text": {
+        "it": "Questi, o Signore, le cui anime tu hai chiamato, falli riposare nel paradiso di delizia, nella dimora dei viventi in eterno, nella Gerusalemme celeste, in quel luogo. E anche noi, che siamo di passaggio in questo luogo, conservaci nella tua fede, ed accordaci la tua pace fino alla fine.",
+        "ar": "أولئك يارب"
+      }
+    },
+    {
+      "id": "congregation_039_3339202d_1783476129659935",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/39 - كما كان هكذا يكون.mp3",
+      "text": {
+        "it": "Come era e sarà, è di generazione in generazione e per tutti i secoli dei secoli. Amen.",
+        "ar": "كما كان هكذا يكون"
+      }
+    },
+    {
+      "id": "priest_044_3434202d_1783476141023234",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/44 - واهدنا إلى ملكوتك.mp3",
+      "text": {
+        "it": "Guidaci al tuo regno. Affinché in questo, così anche in ogni cosa, il tuo grande e santo Nome sia glorificato, benedetto, esaltato in ogni cosa, onorato e benedetto, con Gesù Cristo tuo diletto Figlio, e con lo Spirito Santo. Pace a tutti.",
+        "ar": "واهدنا إلى ملكوتك"
+      }
+    },
+    {
+      "id": "congregation_040_3430202d_1783476144865989",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/40 - ولروحك أيضاً.mp3",
+      "text": {
+        "it": "Ed allo spirito tuo.",
+        "ar": "ولروحك أيضاً"
+      }
+    },
+    {
+      "id": "priest_045_3435202d_1783476156144154",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/45 - وأيضا فلنشكر الله.mp3",
+      "text": {
+        "it": "Ancora rendiamo grazie a Dio onnipotente, Padre del nostro Signore, Dio e Salvatore Gesù Cristo, poiché ci ha resi degni di stare in piedi in questo santo luogo, di levare le nostre mani verso l’alto e di servire il suo santo Nome. Supplichiamolo ancora di renderci degni della comunione e della partecipazione dei suoi divini ed immortali misteri.",
+        "ar": "وأيضا فلنشكر الله"
+      }
+    },
+    {
+      "id": "congregation_041_34312020_178347616447461",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/41  - آمين (مقدمة القسمة).mp3",
+      "text": {
+        "it": "Amen.",
+        "ar": "آمين (مقدمة القسمة)"
+      }
+    },
+    {
+      "id": "priest_046_3436202d_1783476173135205",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/46 - الجسد المقدس.mp3",
+      "text": {
+        "it": "Il Corpo santo.",
+        "ar": "الجسد المقدس"
+      }
+    },
+    {
+      "id": "congregation_042_3432202d_1783476179898497",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/42 - نسنجد لجسدك المقدس.mp3",
+      "text": {
+        "it": "Adoriamo il tuo Corpo santo.",
+        "ar": "نسنجد لجسدك المقدس"
+      }
+    },
+    {
+      "id": "priest_047_3437202d_1783476188923998",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/47 - والدم الكريم.mp3",
+      "text": {
+        "it": "Ed il Sangue prezioso.",
+        "ar": "والدم الكريم"
+      }
+    },
+    {
+      "id": "congregation_043_3433202d_178347619782057",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/43 - ولدمك الكريم.mp3",
+      "text": {
+        "it": "Ed il tuo Sangue prezioso.",
+        "ar": "ولدمك الكريم"
+      }
+    },
+    {
+      "id": "priest_048_3438202d_1783476203559751",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/48 - اللذان لمسيحه الضابط الكل.mp3",
+      "text": {
+        "it": "Di Cristo, l’onnipotente Signore nostro Dio.",
+        "ar": "اللذان لمسيحه الضابط الكل"
+      }
+    },
+    {
+      "id": "deacon_024_3234202d_1783476212908595",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/24 - آمين آمين صلوا.mp3",
+      "text": {
+        "it": "Amen. Amen. Pregate.",
+        "ar": "آمين آمين صلوا"
+      }
+    },
+    {
+      "id": "congregation_044_3434202d_1783476219951215",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/44 - يارب ارحم (مقدمة القسمة).mp3",
+      "text": {
+        "it": "Signore, Pietà.",
+        "ar": "يارب ارحم (مقدمة القسمة)"
+      }
+    },
+    {
+      "id": "priest_049_3439202d_1783476229974585",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/49 - السلام لجميعكم.mp3",
+      "text": {
+        "it": "Pace a tutti.",
+        "ar": "السلام لجميعكم"
+      }
+    },
+    {
+      "id": "congregation_045_3435202d_1783476235801798",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/45 - ولروحك أيضا.mp3",
+      "text": {
+        "it": "Ed allo spirito tuo.",
+        "ar": "ولروحك أيضا"
+      }
+    },
+    {
+      "id": "congregation_046_3436202d_1783476260909608",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/46 - كيريليسون، كيريليسون، يارب ارحم (القسمة).mp3",
+      "text": {
+        "it": "Signore, Pietà; Signore, Pietà; Signore, Pietà.",
+        "ar": "كيريليسون، كيريليسون، يارب ارحم (القسمة)"
+      }
+    },
+    {
+      "id": "congregation_047_3437202d_1783476274745175",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/47 - بالمسيح يسوع ربنا.mp3",
+      "text": {
+        "it": "In Cristo Gesù nostro Signore.",
+        "ar": "بالمسيح يسوع ربنا"
+      }
+    },
+    {
+      "id": "deacon_025_3235202d_1783476281385607",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/25 - احنوا رؤوسكم للرب.mp3",
+      "text": {
+        "it": "Inchinate i vostri capi al Signore.",
+        "ar": "احنوا رؤوسكم للرب"
+      }
+    },
+    {
+      "id": "congregation_048_3438202d_1783476287705263",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/48 - أمامك يارب.mp3",
+      "text": {
+        "it": "Davanti a te, o Signore.",
+        "ar": "أمامك يارب"
+      }
+    },
+    {
+      "id": "deacon_026_3236202d_1783476309091140",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/26 - ننصت بخوف الله.mp3",
+      "text": {
+        "it": "Stiamo attenti con timore di Dio.",
+        "ar": "ننصت بخوف الله"
+      }
+    },
+    {
+      "id": "priest_050_3530202d_1783476333615257",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/50 - السلام لجميعكم (قبل التحليل).mp3",
+      "text": {
+        "it": "Pace a tutti.",
+        "ar": "السلام لجميعكم (قبل التحليل)"
+      }
+    },
+    {
+      "id": "congregation_049_3439202d_1783476343270426",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/49 - ولروحك أيضا (قبل التحليل).mp3",
+      "text": {
+        "it": "Ed allo spirito tuo.",
+        "ar": "ولروحك أيضا (قبل التحليل)"
+      }
+    },
+    {
+      "id": "priest_051_3531202d_1783476352512430",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/51 - أذكر يارب اجتمعاتنا باركها.mp3",
+      "text": {
+        "it": "Ricordati, o Signore, delle nostre adunanze. Benedicile.",
+        "ar": "أذكر يارب اجتمعاتنا باركها"
+      }
+    },
+    {
+      "id": "deacon_027_3237202d_1783476363130532",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/27 - خلصت حقا.mp3",
+      "text": {
+        "it": "Salvati. Amen. Ed allo spirito tuo. Con timore di Dio stiamo attenti.",
+        "ar": "خلصت حقا"
+      }
+    },
+    {
+      "id": "congregation_050_3530202d_1783476372570446",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/50 - آمين يارب ارحم، يارب ارحم، يارب ارحم.mp3",
+      "text": {
+        "it": "Amen. Signore, pietà. Signore pietà. Signore, pietà.",
+        "ar": "آمين يارب ارحم، يارب ارحم، يارب ارحم"
+      }
+    },
+    {
+      "id": "priest_051_3531202d_1783476387990278",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/51 - القدسات للقديسين.mp3",
+      "text": {
+        "it": "Le cose sante ai santi. Benedetto il Signore Gesù Cristo, Figlio di Dio, la santificazione dello Spirito Santo. Amen.",
+        "ar": "القدسات للقديسين"
+      }
+    },
+    {
+      "id": "congregation_052_3532202d_1783476397155244",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/52 - واحد هو الآب القدوس.mp3",
+      "text": {
+        "it": "Uno è il Padre santo; uno è il Figlio santo; uno è lo Spirito Santo. Amen.",
+        "ar": "واحد هو الآب القدوس"
+      }
+    },
+    {
+      "id": "priest_052_3532202d_1783476402727511",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/52 - السلام لجميعكم.mp3",
+      "text": {
+        "it": "Pace a tutti.",
+        "ar": "السلام لجميعكم"
+      }
+    },
+    {
+      "id": "congregation_053_3533202d_1783476410757289",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/53 - ولروحك أيضاً.mp3",
+      "text": {
+        "it": "Ed allo spirito tuo.",
+        "ar": "ولروحك أيضاً"
+      }
+    },
+    {
+      "id": "priest_053_3533202d_1783476420737405",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/53 - جسد مقدس ودم كريم حقيقي.mp3",
+      "text": {
+        "it": "Corpo santo e Sangue prezioso, vero, di Gesù Cristo, Figlio del nostro Dio. Amen.",
+        "ar": "جسد مقدس ودم كريم حقيقي"
+      }
+    },
+    {
+      "id": "congregation_054_3534202d_1783476425739262",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/54 - آمين الأولى.mp3",
+      "text": {
+        "it": "Amen.",
+        "ar": "آمين الأولى"
+      }
+    },
+    {
+      "id": "priest_054_3534202d_1783476435598650",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/54 - جسد ودم عمانوئيل إلهنا.mp3",
+      "text": {
+        "it": "Questo è veramente il Corpo e il Sangue dell’Emmanuele, nostro Dio. Amen.",
+        "ar": "جسد ودم عمانوئيل إلهنا"
+      }
+    },
+    {
+      "id": "congregation_056_3536202d_1783476452366354",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/56 - آممين الثالثة.mp3",
+      "text": {
+        "it": "Amen. Crediamo.",
+        "ar": "آممين الثالثة"
+      }
+    },
+    {
+      "id": "priest_055_3535202d_1783476466975290",
+      "role": "priest",
+      "audio": "assets/audio/01 - الكاهن/55 - الإعتراف.mp3",
+      "text": {
+        "it": "Amen, amen, amen. Credo, credo, credo, e professo fino all’ultimo respiro che questo è il Corpo vivificante che il tuo unigenito Figlio, nostro Signore, Dio e Salvatore Gesù Cristo ha preso dalla nostra Signora e Sovrana, la pura Madre di Dio santa Maria. Egli l’ha reso una cosa sola con la propria divinità senza confusione, senza commistione e senza alterazione. Egli ha professato la buona confessione dinanzi a Ponzio Pilato. Egli lo ha dato per noi sul santo legno della croce, di propria volontà, per noi tutti. In verità, io credo che la sua divinità non si è mai separata dalla sua umanità nemmeno per un istante o per un batter d’occhio. Egli lo ha dato per noi per la salvezza, per la remissione dei nostri peccati, e per la vita eterna in favore di coloro che ne partecipano. Credo, credo, credo che è così in verità. Amen.",
+        "ar": "الإعتراف"
+      }
+    },
+    {
+      "id": "deacon_028_3238202d_1783476474443977",
+      "role": "deacon",
+      "audio": "assets/audio/02 - الشماس/28 - الإعتراف.mp3",
+      "text": {
+        "it": "Amen, amen, amen. Credo che è così in verità. Amen. Pregate per noi e per tutti i cristiani che ci hanno raccomandato di fare memoria di loro (nella casa del Signore). La pace e l’amore di Gesù Cristo siano con voi. Cantate: Alleluia. Pregate per la santa comunione degli intemerati e sovracelesti santi misteri.",
+        "ar": "الإعتراف"
+      }
+    }
+  ]
+}
