@@ -25,7 +25,7 @@
       "words_it": [
         {
           "word": "Gloria",
-          "start": 0.0,
+          "start": 0,
           "end": 4.96
         },
         {
@@ -366,7 +366,7 @@
       "words_it": [
         {
           "word": "Pregate",
-          "start": 0.0,
+          "start": 0,
           "end": 1.28
         },
         {
@@ -472,7 +472,7 @@
       "words_it": [
         {
           "word": "Alleluia.",
-          "start": 0.0,
+          "start": 0,
           "end": 3.1199999999999997
         },
         {
@@ -638,7 +638,7 @@
       "words_it": [
         {
           "word": "Nel",
-          "start": 0.0,
+          "start": 0,
           "end": 0.72
         },
         {
@@ -729,7 +729,7 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 0.0,
+          "start": 0,
           "end": 6.75
         }
       ]
@@ -745,7 +745,7 @@
       "words_it": [
         {
           "word": "Benedetto",
-          "start": 0.0,
+          "start": 0,
           "end": 2.56
         },
         {
@@ -801,7 +801,7 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 0.0,
+          "start": 0,
           "end": 6.75
         }
       ]
@@ -817,7 +817,7 @@
       "words_it": [
         {
           "word": "Benedetto",
-          "start": 0.0,
+          "start": 0,
           "end": 3.04
         },
         {
@@ -853,7 +853,7 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 0.0,
+          "start": 0,
           "end": 10.2
         },
         {
@@ -914,11 +914,11 @@
         {
           "word": "è",
           "start": 20.32,
-          "end": 21.0
+          "end": 21
         },
         {
           "word": "lo",
-          "start": 21.0,
+          "start": 21,
           "end": 21.32
         },
         {
@@ -1119,7 +1119,7 @@
       "words_it": [
         {
           "word": "Gloria",
-          "start": 0.0,
+          "start": 0,
           "end": 1.44
         },
         {
@@ -1225,7 +1225,7 @@
       "words_it": [
         {
           "word": "Pregate.",
-          "start": 0.0,
+          "start": 0,
           "end": 11.94
         }
       ]
@@ -1241,7 +1241,7 @@
       "words_it": [
         {
           "word": "State",
-          "start": 0.0,
+          "start": 0,
           "end": 3.6
         },
         {
@@ -1282,7 +1282,7 @@
       "words_it": [
         {
           "word": "Pace",
-          "start": 0.0,
+          "start": 0,
           "end": 3.86
         },
         {
@@ -1309,11 +1309,11 @@
         {
           "word": "Ed",
           "start": 0,
-          "end": 0.0
+          "end": 0
         },
         {
           "word": "allo",
-          "start": 0.0,
+          "start": 0,
           "end": 0.78
         },
         {
@@ -1339,7 +1339,7 @@
       "words_it": [
         {
           "word": "Rendiamo",
-          "start": 0.0,
+          "start": 0,
           "end": 1.28
         },
         {
@@ -1470,16 +1470,16 @@
         {
           "word": "sostenuti",
           "start": 52.1,
-          "end": 62.0
+          "end": 62
         },
         {
           "word": "e",
-          "start": 62.0,
-          "end": 62.0
+          "start": 62,
+          "end": 62
         },
         {
           "word": "portati",
-          "start": 62.0,
+          "start": 62,
           "end": 62.96
         },
         {
@@ -1640,7 +1640,7 @@
       "words_it": [
         {
           "word": "Pregate.",
-          "start": 0.0,
+          "start": 0,
           "end": 6.15
         }
       ]
@@ -1656,7 +1656,7 @@
       "words_it": [
         {
           "word": "Signore,",
-          "start": 0.0,
+          "start": 0,
           "end": 9.899999999999999
         },
         {
@@ -1677,7 +1677,7 @@
       "words_it": [
         {
           "word": "Sovrano",
-          "start": 0.0,
+          "start": 0,
           "end": 6.6
         },
         {
@@ -1788,11 +1788,11 @@
         {
           "word": "ed",
           "start": 51.42,
-          "end": 52.0
+          "end": 52
         },
         {
           "word": "in",
-          "start": 52.0,
+          "start": 52,
           "end": 52.5
         },
         {
@@ -1848,11 +1848,11 @@
         {
           "word": "con",
           "start": 71.5,
-          "end": 73.0
+          "end": 73
         },
         {
           "word": "misericordia,",
-          "start": 73.0,
+          "start": 73,
           "end": 76.72
         },
         {
@@ -1898,7 +1898,7 @@
       "words_it": [
         {
           "word": "Pregate",
-          "start": 0.0,
+          "start": 0,
           "end": 2.74
         },
         {
@@ -1929,11 +1929,11 @@
         {
           "word": "misericordia",
           "start": 7.84,
-          "end": 9.0
+          "end": 9
         },
         {
           "word": "di",
-          "start": 9.0,
+          "start": 9,
           "end": 11.9
         },
         {
@@ -2164,7 +2164,7 @@
       "words_it": [
         {
           "word": "Signore,",
-          "start": 0.0,
+          "start": 0,
           "end": 6.12
         },
         {
@@ -2185,7 +2185,7 @@
       "words_it": [
         {
           "word": "Perciò",
-          "start": 0.0,
+          "start": 0,
           "end": 20.860000000000003
         },
         {
@@ -2341,11 +2341,11 @@
         {
           "word": "Ogni",
           "start": 67.94,
-          "end": 69.0
+          "end": 69
         },
         {
           "word": "invidia,",
-          "start": 69.0,
+          "start": 69,
           "end": 70.39999999999999
         },
         {
@@ -2371,11 +2371,11 @@
         {
           "word": "di",
           "start": 74.6,
-          "end": 75.0
+          "end": 75
         },
         {
           "word": "Satana,",
-          "start": 75.0,
+          "start": 75,
           "end": 76.7
         },
         {
@@ -2716,16 +2716,16 @@
         {
           "word": "indurre",
           "start": 167.38,
-          "end": 168.0
+          "end": 168
         },
         {
           "word": "in",
-          "start": 168.0,
-          "end": 168.0
+          "start": 168,
+          "end": 168
         },
         {
           "word": "tentazione,",
-          "start": 168.0,
+          "start": 168,
           "end": 169.95999999999998
         },
         {
@@ -2811,11 +2811,11 @@
         {
           "word": "Figlio",
           "start": 179.56,
-          "end": 180.0
+          "end": 180
         },
         {
           "word": "unigenito,",
-          "start": 180.0,
+          "start": 180,
           "end": 181.01999999999998
         },
         {
@@ -2881,11 +2881,11 @@
         {
           "word": "spettano",
           "start": 188.26,
-          "end": 189.0
+          "end": 189
         },
         {
           "word": "gloria,",
-          "start": 189.0,
+          "start": 189,
           "end": 190.6
         },
         {
@@ -3036,7 +3036,7 @@
       "words_it": [
         {
           "word": "Salvati.",
-          "start": 150.0,
+          "start": 150,
           "end": 150.18
         },
         {
@@ -3087,7 +3087,7 @@
       "words_it": [
         {
           "word": "Il",
-          "start": 0.0,
+          "start": 0,
           "end": 0.9
         },
         {
@@ -3233,7 +3233,7 @@
       "words_it": [
         {
           "word": "Ave",
-          "start": 0.0,
+          "start": 0,
           "end": 5.06
         },
         {
@@ -3429,7 +3429,7 @@
       "words_it": [
         {
           "word": "Pregate.",
-          "start": 0.0,
+          "start": 0,
           "end": 11.94
         }
       ]
@@ -3446,16 +3446,16 @@
         {
           "word": "State",
           "start": 0,
-          "end": 0.0
+          "end": 0
         },
         {
           "word": "in",
-          "start": 0.0,
-          "end": 0.0
+          "start": 0,
+          "end": 0
         },
         {
           "word": "piedi",
-          "start": 0.0,
+          "start": 0,
           "end": 0.44
         },
         {
@@ -3486,7 +3486,7 @@
       "words_it": [
         {
           "word": "Pace",
-          "start": 0.0,
+          "start": 0,
           "end": 1.86
         },
         {
@@ -3512,7 +3512,7 @@
       "words_it": [
         {
           "word": "Ed",
-          "start": 0.0,
+          "start": 0,
           "end": 1.04
         },
         {
@@ -3543,7 +3543,7 @@
       "words_it": [
         {
           "word": "Sovrano",
-          "start": 0.0,
+          "start": 0,
           "end": 1.4
         },
         {
@@ -3944,7 +3944,7 @@
       "words_it": [
         {
           "word": "Pregate",
-          "start": 0.0,
+          "start": 0,
           "end": 3.24
         },
         {
@@ -3980,7 +3980,7 @@
       "words_it": [
         {
           "word": "Signore,",
-          "start": 0.0,
+          "start": 0,
           "end": 1.74
         },
         {
@@ -4001,7 +4001,7 @@
       "words_it": [
         {
           "word": "Ricordati",
-          "start": 0.0,
+          "start": 0,
           "end": 1.16
         },
         {
@@ -4052,11 +4052,11 @@
         {
           "word": "hanno",
           "start": 6.62,
-          "end": 7.0
+          "end": 7
         },
         {
           "word": "domandato",
-          "start": 7.0,
+          "start": 7,
           "end": 8.58
         },
         {
@@ -4137,11 +4137,11 @@
         {
           "word": "nostro",
           "start": 30.14,
-          "end": 33.0
+          "end": 33
         },
         {
           "word": "Dio.",
-          "start": 33.0,
+          "start": 33,
           "end": 35.2
         },
         {
@@ -4342,7 +4342,7 @@
       "words_it": [
         {
           "word": "Alleluia.",
-          "start": 0.0,
+          "start": 0,
           "end": 44.89
         }
       ]
@@ -4358,7 +4358,7 @@
       "words_it": [
         {
           "word": "State",
-          "start": 0.0,
+          "start": 0,
           "end": 1.66
         },
         {
@@ -4430,16 +4430,16 @@
         {
           "word": "colui",
           "start": 7.5,
-          "end": 15.0
+          "end": 15
         },
         {
           "word": "che",
-          "start": 15.0,
-          "end": 30.0
+          "start": 15,
+          "end": 30
         },
         {
           "word": "viene",
-          "start": 30.0,
+          "start": 30,
           "end": 31.1
         },
         {
@@ -4515,7 +4515,7 @@
       "words_it": [
         {
           "word": "Gloria",
-          "start": 0.0,
+          "start": 0,
           "end": 1.68
         },
         {
@@ -4561,7 +4561,7 @@
       "words_it": [
         {
           "word": "Perché",
-          "start": 0.0,
+          "start": 0,
           "end": 1.14
         },
         {
@@ -4572,11 +4572,11 @@
         {
           "word": "benedetto",
           "start": 2.78,
-          "end": 5.0
+          "end": 5
         },
         {
           "word": "il",
-          "start": 5.0,
+          "start": 5,
           "end": 5.72
         },
         {
@@ -4586,7 +4586,7 @@
         },
         {
           "word": "il",
-          "start": 8.0,
+          "start": 8,
           "end": 8.84
         },
         {
@@ -4667,7 +4667,7 @@
       "words_it": [
         {
           "word": "Nella",
-          "start": 0.0,
+          "start": 0,
           "end": 3.64
         },
         {
@@ -4738,7 +4738,7 @@
       "words_it": [
         {
           "word": "O",
-          "start": 0.0,
+          "start": 0,
           "end": 1.84
         },
         {
@@ -4809,16 +4809,16 @@
         {
           "word": "distrutto",
           "start": 40.3,
-          "end": 42.0
+          "end": 42
         },
         {
           "word": "la",
-          "start": 42.0,
-          "end": 42.0
+          "start": 42,
+          "end": 42
         },
         {
           "word": "morte",
-          "start": 42.0,
+          "start": 42,
           "end": 44.14
         },
         {
@@ -4884,16 +4884,16 @@
         {
           "word": "della",
           "start": 51.18,
-          "end": 52.0
+          "end": 52
         },
         {
           "word": "vivificante",
-          "start": 52.0,
-          "end": 52.0
+          "start": 52,
+          "end": 52
         },
         {
           "word": "venuta",
-          "start": 52.0,
+          "start": 52,
           "end": 53.2
         },
         {
@@ -5129,7 +5129,7 @@
       "words_it": [
         {
           "word": "Pregate",
-          "start": 0.0,
+          "start": 0,
           "end": 4.2
         },
         {
@@ -5215,7 +5215,7 @@
       "words_it": [
         {
           "word": "Signore,",
-          "start": 0.0,
+          "start": 0,
           "end": 2.1
         },
         {
@@ -5236,7 +5236,7 @@
       "words_it": [
         {
           "word": "Secondo",
-          "start": 0.0,
+          "start": 0,
           "end": 15.86
         },
         {
@@ -5557,7 +5557,7 @@
       "words_it": [
         {
           "word": "Salutatevi",
-          "start": 0.0,
+          "start": 0,
           "end": 6.22
         },
         {
@@ -5593,11 +5593,11 @@
         {
           "word": "pietà.",
           "start": 11.46,
-          "end": 13.0
+          "end": 13
         },
         {
           "word": "Signore,",
-          "start": 13.0,
+          "start": 13,
           "end": 14.36
         },
         {
@@ -5613,16 +5613,16 @@
         {
           "word": "pietà.",
           "start": 17.2,
-          "end": 19.0
+          "end": 19
         },
         {
           "word": "Sì,",
-          "start": 19.0,
-          "end": 19.0
+          "start": 19,
+          "end": 19
         },
         {
           "word": "o",
-          "start": 19.0,
+          "start": 19,
           "end": 20.34
         },
         {
@@ -5663,11 +5663,11 @@
         {
           "word": "Figlio",
           "start": 25.38,
-          "end": 26.0
+          "end": 26
         },
         {
           "word": "di",
-          "start": 26.0,
+          "start": 26,
           "end": 26.36
         },
         {
@@ -5783,7 +5783,7 @@
       "words_it": [
         {
           "word": "Per",
-          "start": 0.0,
+          "start": 0,
           "end": 1.18
         },
         {
@@ -6009,7 +6009,7 @@
       "words_it": [
         {
           "word": "Il",
-          "start": 0.0,
+          "start": 0,
           "end": 0.96
         },
         {
@@ -6050,7 +6050,7 @@
       "words_it": [
         {
           "word": "E",
-          "start": 0.0,
+          "start": 0,
           "end": 1.92
         },
         {
@@ -6086,7 +6086,7 @@
       "words_it": [
         {
           "word": "In",
-          "start": 0.0,
+          "start": 0,
           "end": 15.860000000000001
         },
         {
@@ -6122,7 +6122,7 @@
       "words_it": [
         {
           "word": "Sono",
-          "start": 0.0,
+          "start": 0,
           "end": 2.7
         },
         {
@@ -6153,7 +6153,7 @@
       "words_it": [
         {
           "word": "Rendiamo",
-          "start": 0.0,
+          "start": 0,
           "end": 2.36
         },
         {
@@ -6216,16 +6216,16 @@
         {
           "word": "È",
           "start": 0,
-          "end": 0.0
+          "end": 0
         },
         {
           "word": "degno",
-          "start": 0.0,
-          "end": 0.0
+          "start": 0,
+          "end": 0
         },
         {
           "word": "e",
-          "start": 0.0,
+          "start": 0,
           "end": 1.82
         },
         {
@@ -6336,11 +6336,11 @@
         {
           "word": "esiste",
           "start": 39.14,
-          "end": 40.0
+          "end": 40
         },
         {
           "word": "da",
-          "start": 40.0,
+          "start": 40,
           "end": 41.02
         },
         {
@@ -6446,11 +6446,11 @@
         {
           "word": "colui",
           "start": 123.36,
-          "end": 124.0
+          "end": 124
         },
         {
           "word": "che",
-          "start": 124.0,
+          "start": 124,
           "end": 124.92
         },
         {
@@ -6481,11 +6481,11 @@
         {
           "word": "terra,",
           "start": 130.38,
-          "end": 131.0
+          "end": 131
         },
         {
           "word": "il",
-          "start": 131.0,
+          "start": 131,
           "end": 131.72
         },
         {
@@ -6571,11 +6571,11 @@
         {
           "word": "mezzo",
           "start": 147.22,
-          "end": 149.0
+          "end": 149
         },
         {
           "word": "di",
-          "start": 149.0,
+          "start": 149,
           "end": 150.06
         },
         {
@@ -6731,7 +6731,7 @@
       "words_it": [
         {
           "word": "Quanti",
-          "start": 0.0,
+          "start": 0,
           "end": 1.1
         },
         {
@@ -6762,7 +6762,7 @@
       "words_it": [
         {
           "word": "Colui",
-          "start": 0.0,
+          "start": 0,
           "end": 0.88
         },
         {
@@ -6783,11 +6783,11 @@
         {
           "word": "stanno",
           "start": 28.580000000000002,
-          "end": 30.0
+          "end": 30
         },
         {
           "word": "gli",
-          "start": 30.0,
+          "start": 30,
           "end": 31.82
         },
         {
@@ -6873,7 +6873,7 @@
       "words_it": [
         {
           "word": "Guardate",
-          "start": 0.0,
+          "start": 0,
           "end": 2.26
         },
         {
@@ -6899,7 +6899,7 @@
       "words_it": [
         {
           "word": "Intorno",
-          "start": 0.0,
+          "start": 0,
           "end": 22.7
         },
         {
@@ -7020,7 +7020,7 @@
       "words_it": [
         {
           "word": "Stiamo",
-          "start": 0.0,
+          "start": 0,
           "end": 4.799999999999999
         },
         {
@@ -7041,7 +7041,7 @@
       "words_it": [
         {
           "word": "I",
-          "start": 0.0,
+          "start": 0,
           "end": 0.76
         },
         {
@@ -7082,7 +7082,7 @@
         {
           "word": "glorificano,",
           "start": 12.7,
-          "end": 15.0
+          "end": 15
         },
         {
           "word": "gridando",
@@ -7498,11 +7498,11 @@
         {
           "word": "dei",
           "start": 229.2,
-          "end": 230.0
+          "end": 230
         },
         {
           "word": "tuoi",
-          "start": 230.0,
+          "start": 230,
           "end": 230.42
         },
         {
@@ -7553,11 +7553,11 @@
         {
           "word": "stesso",
           "start": 239.5,
-          "end": 240.0
+          "end": 240
         },
         {
           "word": "a",
-          "start": 240.0,
+          "start": 240,
           "end": 241.14
         },
         {
@@ -7648,21 +7648,21 @@
         {
           "word": "Dio",
           "start": 266.72,
-          "end": 267.0
+          "end": 267
         },
         {
           "word": "e",
-          "start": 267.0,
+          "start": 267,
           "end": 267.24
         },
         {
           "word": "Salvatore",
           "start": 267.24,
-          "end": 269.0
+          "end": 269
         },
         {
           "word": "Gesù",
-          "start": 269.0,
+          "start": 269,
           "end": 269.68
         },
         {
@@ -7738,7 +7738,7 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 0.0,
+          "start": 0,
           "end": 10.77
         }
       ]
@@ -8215,7 +8215,7 @@
       "words_it": [
         {
           "word": "Amen,",
-          "start": 0.0,
+          "start": 0,
           "end": 8.26
         },
         {
@@ -8236,7 +8236,7 @@
       "words_it": [
         {
           "word": "È",
-          "start": 0.0,
+          "start": 0,
           "end": 6.8
         },
         {
@@ -8472,7 +8472,7 @@
       "words_it": [
         {
           "word": "Secondo",
-          "start": 0.0,
+          "start": 0,
           "end": 1.4
         },
         {
@@ -8538,7 +8538,7 @@
       "words_it": [
         {
           "word": "Egli",
-          "start": 0.0,
+          "start": 0,
           "end": 2.46
         },
         {
@@ -8659,7 +8659,7 @@
       "words_it": [
         {
           "word": "Crediamo.",
-          "start": 0.0,
+          "start": 0,
           "end": 9.95
         }
       ]
@@ -8675,7 +8675,7 @@
       "words_it": [
         {
           "word": "Egli",
-          "start": 0.0,
+          "start": 0,
           "end": 1.34
         },
         {
@@ -8751,7 +8751,7 @@
       "words_it": [
         {
           "word": "Noi",
-          "start": 0.0,
+          "start": 0,
           "end": 1.16
         },
         {
@@ -8802,7 +8802,7 @@
       "words_it": [
         {
           "word": "Alzò",
-          "start": 0.0,
+          "start": 0,
           "end": 25.1
         },
         {
@@ -8868,11 +8868,11 @@
         {
           "word": "Padre",
           "start": 67.18,
-          "end": 68.0
+          "end": 68
         },
         {
           "word": "suo",
-          "start": 68.0,
+          "start": 68,
           "end": 68.24
         },
         {
@@ -8948,7 +8948,7 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 0.0,
+          "start": 0,
           "end": 9.28
         },
         {
@@ -9004,7 +9004,7 @@
       "words_it": [
         {
           "word": "lo",
-          "start": 0.0,
+          "start": 0,
           "end": 0.82
         },
         {
@@ -9100,11 +9100,11 @@
         {
           "word": "il",
           "start": 28.7,
-          "end": 29.0
+          "end": 29
         },
         {
           "word": "mio",
-          "start": 29.0,
+          "start": 29,
           "end": 29.22
         },
         {
@@ -9165,11 +9165,11 @@
         {
           "word": "remissione",
           "start": 36.98,
-          "end": 38.0
+          "end": 38
         },
         {
           "word": "dei",
-          "start": 38.0,
+          "start": 38,
           "end": 38.24
         },
         {
@@ -9220,7 +9220,7 @@
       "words_it": [
         {
           "word": "Questa",
-          "start": 0.0,
+          "start": 0,
           "end": 0.6
         },
         {
@@ -9256,7 +9256,7 @@
       "words_it": [
         {
           "word": "Allo",
-          "start": 0.0,
+          "start": 0,
           "end": 1.58
         },
         {
@@ -9372,7 +9372,7 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 0.0,
+          "start": 0,
           "end": 7.72
         },
         {
@@ -9449,11 +9449,11 @@
         {
           "word": "diede",
           "start": 5.18,
-          "end": 6.0
+          "end": 6
         },
         {
           "word": "ai",
-          "start": 6.0,
+          "start": 6,
           "end": 7.3
         },
         {
@@ -9664,7 +9664,7 @@
       "words_it": [
         {
           "word": "Questa",
-          "start": 0.0,
+          "start": 0,
           "end": 1.18
         },
         {
@@ -9700,7 +9700,7 @@
       "words_it": [
         {
           "word": "Infatti",
-          "start": 0.0,
+          "start": 0,
           "end": 4.5
         },
         {
@@ -9856,7 +9856,7 @@
       "words_it": [
         {
           "word": "Amen,",
-          "start": 0.0,
+          "start": 0,
           "end": 1.92
         },
         {
@@ -10012,7 +10012,7 @@
       "words_it": [
         {
           "word": "Noi",
-          "start": 0.0,
+          "start": 0,
           "end": 1.44
         },
         {
@@ -10068,11 +10068,11 @@
         {
           "word": "resurrezione",
           "start": 14.38,
-          "end": 16.0
+          "end": 16
         },
         {
           "word": "dalla",
-          "start": 16.0,
+          "start": 16,
           "end": 16.28
         },
         {
@@ -10093,11 +10093,11 @@
         {
           "word": "ascensione",
           "start": 17.72,
-          "end": 19.0
+          "end": 19
         },
         {
           "word": "ai",
-          "start": 19.0,
+          "start": 19,
           "end": 23.66
         },
         {
@@ -10303,7 +10303,7 @@
       "words_it": [
         {
           "word": "Adorate",
-          "start": 0.0,
+          "start": 0,
           "end": 1.88
         },
         {
@@ -10344,7 +10344,7 @@
       "words_it": [
         {
           "word": "Noi",
-          "start": 0.0,
+          "start": 0,
           "end": 1.74
         },
         {
@@ -10385,11 +10385,11 @@
         {
           "word": "ti",
           "start": 14.44,
-          "end": 16.0
+          "end": 16
         },
         {
           "word": "adoriamo.",
-          "start": 16.0,
+          "start": 16,
           "end": 19.16
         }
       ]
@@ -10405,7 +10405,7 @@
       "words_it": [
         {
           "word": "Stiamo",
-          "start": 0.0,
+          "start": 0,
           "end": 1.64
         },
         {
@@ -10431,7 +10431,7 @@
       "words_it": [
         {
           "word": "E",
-          "start": 0.0,
+          "start": 0,
           "end": 1.16
         },
         {
@@ -10497,7 +10497,7 @@
       "words_it": [
         {
           "word": "Crediamo.",
-          "start": 0.0,
+          "start": 0,
           "end": 10.43
         }
       ]
@@ -10513,7 +10513,7 @@
       "words_it": [
         {
           "word": "E",
-          "start": 0.0,
+          "start": 0,
           "end": 0.86
         },
         {
@@ -10534,11 +10534,11 @@
         {
           "word": "il",
           "start": 7.2,
-          "end": 9.0
+          "end": 9
         },
         {
           "word": "Sangue",
-          "start": 9.0,
+          "start": 9,
           "end": 9.74
         },
         {
@@ -10584,7 +10584,7 @@
       "words_it": [
         {
           "word": "Crediamo.",
-          "start": 0.0,
+          "start": 0,
           "end": 10.43
         }
       ]
@@ -10600,7 +10600,7 @@
       "words_it": [
         {
           "word": "il",
-          "start": 0.0,
+          "start": 0,
           "end": 0.4
         },
         {
@@ -10746,7 +10746,7 @@
       "words_it": [
         {
           "word": "Signore,",
-          "start": 0.0,
+          "start": 0,
           "end": 1.6
         },
         {
@@ -10787,7 +10787,7 @@
       "words_it": [
         {
           "word": "Rendici",
-          "start": 0.0,
+          "start": 0,
           "end": 1.26
         },
         {
@@ -11113,7 +11113,7 @@
       "words_it": [
         {
           "word": "Pregate",
-          "start": 0.0,
+          "start": 0,
           "end": 2.3
         },
         {
@@ -11194,7 +11194,7 @@
       "words_it": [
         {
           "word": "Signore,",
-          "start": 0.0,
+          "start": 0,
           "end": 5.14
         },
         {
@@ -11215,7 +11215,7 @@
       "words_it": [
         {
           "word": "Quella",
-          "start": 0.0,
+          "start": 0,
           "end": 1.14
         },
         {
@@ -11291,11 +11291,11 @@
         {
           "word": "pace",
           "start": 16.32,
-          "end": 17.0
+          "end": 17
         },
         {
           "word": "con",
-          "start": 17.0,
+          "start": 17,
           "end": 17.24
         },
         {
@@ -11491,7 +11491,7 @@
       "words_it": [
         {
           "word": "Pregate",
-          "start": 0.0,
+          "start": 0,
           "end": 3.2
         },
         {
@@ -11612,11 +11612,11 @@
         {
           "word": "padre,",
           "start": 27.74,
-          "end": 28.0
+          "end": 28
         },
         {
           "word": "il",
-          "start": 28.0,
+          "start": 28,
           "end": 28.34
         },
         {
@@ -11682,7 +11682,7 @@
       "words_it": [
         {
           "word": "Signore,",
-          "start": 0.0,
+          "start": 0,
           "end": 1.42
         },
         {
@@ -11703,7 +11703,7 @@
       "words_it": [
         {
           "word": "E",
-          "start": 0.0,
+          "start": 0,
           "end": 0.42
         },
         {
@@ -11894,7 +11894,7 @@
       "words_it": [
         {
           "word": "Pregate",
-          "start": 0.0,
+          "start": 0,
           "end": 3.44
         },
         {
@@ -12015,7 +12015,7 @@
       "words_it": [
         {
           "word": "Signore,",
-          "start": 0.0,
+          "start": 0,
           "end": 1.5
         },
         {
@@ -12036,7 +12036,7 @@
       "words_it": [
         {
           "word": "E",
-          "start": 0.0,
+          "start": 0,
           "end": 2.2
         },
         {
@@ -12047,11 +12047,11 @@
         {
           "word": "tutti",
           "start": 2.54,
-          "end": 3.0
+          "end": 3
         },
         {
           "word": "i",
-          "start": 3.0,
+          "start": 3,
           "end": 3.38
         },
         {
@@ -12202,7 +12202,7 @@
       "words_it": [
         {
           "word": "Pietà",
-          "start": 0.0,
+          "start": 0,
           "end": 1.52
         },
         {
@@ -12248,7 +12248,7 @@
       "words_it": [
         {
           "word": "Ricordati,",
-          "start": 0.0,
+          "start": 0,
           "end": 2.2
         },
         {
@@ -12334,11 +12334,11 @@
         {
           "word": "ogni",
           "start": 12.74,
-          "end": 13.0
+          "end": 13
         },
         {
           "word": "monastero",
-          "start": 13.0,
+          "start": 13,
           "end": 13.92
         },
         {
@@ -12374,7 +12374,7 @@
       "words_it": [
         {
           "word": "Pregate",
-          "start": 0.0,
+          "start": 0,
           "end": 3.26
         },
         {
@@ -12475,7 +12475,7 @@
       "words_it": [
         {
           "word": "Signore,",
-          "start": 0.0,
+          "start": 0,
           "end": 5.04
         },
         {
@@ -12496,7 +12496,7 @@
       "words_it": [
         {
           "word": "e",
-          "start": 0.0,
+          "start": 0,
           "end": 0.44
         },
         {
@@ -12707,7 +12707,7 @@
       "words_it": [
         {
           "word": "Pregate",
-          "start": 0.0,
+          "start": 0,
           "end": 2.2
         },
         {
@@ -12788,11 +12788,11 @@
         {
           "word": "giusta",
           "start": 11.24,
-          "end": 12.0
+          "end": 12
         },
         {
           "word": "salita",
-          "start": 12.0,
+          "start": 12,
           "end": 13.96
         },
         {
@@ -13058,7 +13058,7 @@
       "words_it": [
         {
           "word": "Signore,",
-          "start": 0.0,
+          "start": 0,
           "end": 1.62
         },
         {
@@ -13074,11 +13074,11 @@
         {
           "word": "pietà;",
           "start": 4.1,
-          "end": 6.0
+          "end": 6
         },
         {
           "word": "Signore,",
-          "start": 6.0,
+          "start": 6,
           "end": 7.64
         },
         {
@@ -13099,7 +13099,7 @@
       "words_it": [
         {
           "word": "Falli",
-          "start": 0.0,
+          "start": 0,
           "end": 1.24
         },
         {
@@ -13460,11 +13460,11 @@
         {
           "word": "Nome.",
           "start": 97.16,
-          "end": 98.0
+          "end": 98
         },
         {
           "word": "Infatti",
-          "start": 98.0,
+          "start": 98,
           "end": 98.84
         },
         {
@@ -13560,11 +13560,11 @@
         {
           "word": "con",
           "start": 113.8,
-          "end": 115.0
+          "end": 115
         },
         {
           "word": "noi",
-          "start": 115.0,
+          "start": 115,
           "end": 116.2
         },
         {
@@ -13585,11 +13585,11 @@
         {
           "word": "bontà,",
           "start": 119.8,
-          "end": 121.0
+          "end": 121
         },
         {
           "word": "tu",
-          "start": 121.0,
+          "start": 121,
           "end": 122.2
         },
         {
@@ -13610,11 +13610,11 @@
         {
           "word": "ad",
           "start": 125.8,
-          "end": 127.0
+          "end": 127
         },
         {
           "word": "ogni",
-          "start": 127.0,
+          "start": 127,
           "end": 128.2
         },
         {
@@ -13635,11 +13635,11 @@
         {
           "word": "nostri",
           "start": 131.8,
-          "end": 133.0
+          "end": 133
         },
         {
           "word": "cuori",
-          "start": 133.0,
+          "start": 133,
           "end": 134.2
         },
         {
@@ -13660,11 +13660,11 @@
         {
           "word": "di",
           "start": 137.8,
-          "end": 139.0
+          "end": 139
         },
         {
           "word": "letizia,",
-          "start": 139.0,
+          "start": 139,
           "end": 140.2
         },
         {
@@ -13755,7 +13755,7 @@
       "words_it": [
         {
           "word": "Ricordati,",
-          "start": 0.0,
+          "start": 0,
           "end": 2.24
         },
         {
@@ -13956,7 +13956,7 @@
       "words_it": [
         {
           "word": "Pregate",
-          "start": 0.0,
+          "start": 0,
           "end": 1.26
         },
         {
@@ -14052,7 +14052,7 @@
       "words_it": [
         {
           "word": "Signore,",
-          "start": 0.0,
+          "start": 0,
           "end": 4.3
         },
         {
@@ -14073,7 +14073,7 @@
       "words_it": [
         {
           "word": "Poiché",
-          "start": 0.0,
+          "start": 0,
           "end": 0.92
         },
         {
@@ -14524,11 +14524,11 @@
         {
           "word": "san",
           "start": 160.52,
-          "end": 161.0
+          "end": 161
         },
         {
           "word": "Giovanni",
-          "start": 161.0,
+          "start": 161,
           "end": 161.78
         },
         {
@@ -14879,11 +14879,11 @@
         {
           "word": "dei",
           "start": 319.2,
-          "end": 321.0
+          "end": 321
         },
         {
           "word": "centocinquanta",
-          "start": 321.0,
+          "start": 321,
           "end": 322.4
         },
         {
@@ -15269,11 +15269,11 @@
         {
           "word": "Massimo",
           "start": 424.9,
-          "end": 426.0
+          "end": 426
         },
         {
           "word": "e",
-          "start": 426.0,
+          "start": 426,
           "end": 428.76
         },
         {
@@ -15734,7 +15734,7 @@
       "words_it": [
         {
           "word": "Che",
-          "start": 0.0,
+          "start": 0,
           "end": 0.58
         },
         {
@@ -15905,7 +15905,7 @@
       "words_it": [
         {
           "word": "Che",
-          "start": 0.0,
+          "start": 0,
           "end": 0.74
         },
         {
@@ -15916,11 +15916,11 @@
         {
           "word": "loro",
           "start": 2.06,
-          "end": 3.0
+          "end": 3
         },
         {
           "word": "santa",
-          "start": 3.0,
+          "start": 3,
           "end": 5.7
         },
         {
@@ -16036,7 +16036,7 @@
       "words_it": [
         {
           "word": "Questi,",
-          "start": 0.0,
+          "start": 0,
           "end": 2.78
         },
         {
@@ -16182,11 +16182,11 @@
         {
           "word": "noi,",
           "start": 59.12,
-          "end": 60.0
+          "end": 60
         },
         {
           "word": "che",
-          "start": 60.0,
+          "start": 60,
           "end": 61.1
         },
         {
@@ -16277,7 +16277,7 @@
         {
           "word": "fine.",
           "start": 76.92,
-          "end": 79.0
+          "end": 79
         }
       ]
     },
@@ -16292,7 +16292,7 @@
       "words_it": [
         {
           "word": "Come",
-          "start": 0.0,
+          "start": 0,
           "end": 4.84
         },
         {
@@ -16389,16 +16389,16 @@
         {
           "word": "Guidaci",
           "start": 0,
-          "end": 0.0
+          "end": 0
         },
         {
           "word": "al",
-          "start": 0.0,
-          "end": 0.0
+          "start": 0,
+          "end": 0
         },
         {
           "word": "tuo",
-          "start": 0.0,
+          "start": 0,
           "end": 1.72
         },
         {
@@ -16609,7 +16609,7 @@
       "words_it": [
         {
           "word": "Ed",
-          "start": 0.0,
+          "start": 0,
           "end": 0.9
         },
         {
@@ -16640,7 +16640,7 @@
       "words_it": [
         {
           "word": "Ancora",
-          "start": 0.0,
+          "start": 0,
           "end": 2.7
         },
         {
@@ -16941,7 +16941,7 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 0.0,
+          "start": 0,
           "end": 26.41
         }
       ]
@@ -16957,7 +16957,7 @@
       "words_it": [
         {
           "word": "Il",
-          "start": 0.0,
+          "start": 0,
           "end": 5.12
         },
         {
@@ -16983,7 +16983,7 @@
       "words_it": [
         {
           "word": "Adoriamo",
-          "start": 0.0,
+          "start": 0,
           "end": 2.94
         },
         {
@@ -17019,7 +17019,7 @@
       "words_it": [
         {
           "word": "Ed",
-          "start": 0.0,
+          "start": 0,
           "end": 0.58
         },
         {
@@ -17050,7 +17050,7 @@
       "words_it": [
         {
           "word": "Ed",
-          "start": 0.0,
+          "start": 0,
           "end": 0.36
         },
         {
@@ -17086,7 +17086,7 @@
       "words_it": [
         {
           "word": "Di",
-          "start": 0.0,
+          "start": 0,
           "end": 0.58
         },
         {
@@ -17127,7 +17127,7 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 0.0,
+          "start": 0,
           "end": 1.96
         },
         {
@@ -17153,7 +17153,7 @@
       "words_it": [
         {
           "word": "Signore,",
-          "start": 0.0,
+          "start": 0,
           "end": 1.92
         },
         {
@@ -17174,7 +17174,7 @@
       "words_it": [
         {
           "word": "Pace",
-          "start": 0.0,
+          "start": 0,
           "end": 5.6
         },
         {
@@ -17200,7 +17200,7 @@
       "words_it": [
         {
           "word": "Ed",
-          "start": 0.0,
+          "start": 0,
           "end": 0.74
         },
         {
@@ -17231,7 +17231,7 @@
       "words_it": [
         {
           "word": "Signore,",
-          "start": 0.0,
+          "start": 0,
           "end": 1.54
         },
         {
@@ -17272,17 +17272,17 @@
       "words_it": [
         {
           "word": "In",
-          "start": 0.0,
+          "start": 0,
           "end": 0.48
         },
         {
           "word": "Cristo",
           "start": 0.48,
-          "end": 12.0
+          "end": 12
         },
         {
           "word": "Gesù",
-          "start": 12.0,
+          "start": 12,
           "end": 12.86
         },
         {
@@ -17309,11 +17309,11 @@
         {
           "word": "Inchinate",
           "start": 0,
-          "end": 0.0
+          "end": 0
         },
         {
           "word": "i",
-          "start": 0.0,
+          "start": 0,
           "end": 0.74
         },
         {
@@ -17349,7 +17349,7 @@
       "words_it": [
         {
           "word": "Davanti",
-          "start": 0.0,
+          "start": 0,
           "end": 1.96
         },
         {
@@ -17385,7 +17385,7 @@
       "words_it": [
         {
           "word": "Stiamo",
-          "start": 0.0,
+          "start": 0,
           "end": 1.34
         },
         {
@@ -17426,7 +17426,7 @@
       "words_it": [
         {
           "word": "Pace",
-          "start": 0.0,
+          "start": 0,
           "end": 5.58
         },
         {
@@ -17452,7 +17452,7 @@
       "words_it": [
         {
           "word": "Ed",
-          "start": 0.0,
+          "start": 0,
           "end": 1.24
         },
         {
@@ -17483,7 +17483,7 @@
       "words_it": [
         {
           "word": "Ricordati,",
-          "start": 0.0,
+          "start": 0,
           "end": 1.42
         },
         {
@@ -17529,7 +17529,7 @@
       "words_it": [
         {
           "word": "Salvati.",
-          "start": 0.0,
+          "start": 0,
           "end": 2.22
         },
         {
@@ -17600,7 +17600,7 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 0.0,
+          "start": 0,
           "end": 1.08
         },
         {
@@ -17646,7 +17646,7 @@
       "words_it": [
         {
           "word": "Le",
-          "start": 0.0,
+          "start": 0,
           "end": 0.5
         },
         {
@@ -17672,11 +17672,11 @@
         {
           "word": "Benedetto",
           "start": 9.3,
-          "end": 10.0
+          "end": 10
         },
         {
           "word": "il",
-          "start": 10.0,
+          "start": 10,
           "end": 10.32
         },
         {
@@ -17752,7 +17752,7 @@
       "words_it": [
         {
           "word": "Uno",
-          "start": 0.0,
+          "start": 0,
           "end": 0.6
         },
         {
@@ -17773,11 +17773,11 @@
         {
           "word": "santo;",
           "start": 1.58,
-          "end": 3.0
+          "end": 3
         },
         {
           "word": "uno",
-          "start": 3.0,
+          "start": 3,
           "end": 3.68
         },
         {
@@ -17843,7 +17843,7 @@
       "words_it": [
         {
           "word": "Pace",
-          "start": 0.0,
+          "start": 0,
           "end": 9.1
         },
         {
@@ -17854,7 +17854,7 @@
         {
           "word": "tutti.",
           "start": 10.5,
-          "end": 11.0
+          "end": 11
         }
       ]
     },
@@ -17869,7 +17869,7 @@
       "words_it": [
         {
           "word": "Ed",
-          "start": 0.0,
+          "start": 0,
           "end": 1.9
         },
         {
@@ -17900,17 +17900,17 @@
       "words_it": [
         {
           "word": "Corpo",
-          "start": 0.0,
-          "end": 1.0
+          "start": 0,
+          "end": 1
         },
         {
           "word": "santo",
-          "start": 1.0,
-          "end": 2.0
+          "start": 1,
+          "end": 2
         },
         {
           "word": "e",
-          "start": 2.0,
+          "start": 2,
           "end": 3.06
         },
         {
@@ -17981,7 +17981,7 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 0.0,
+          "start": 0,
           "end": 8.14
         }
       ]
@@ -17997,7 +17997,7 @@
       "words_it": [
         {
           "word": "Questo",
-          "start": 0.0,
+          "start": 0,
           "end": 1.28
         },
         {
@@ -18068,7 +18068,7 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 0.0,
+          "start": 0,
           "end": 13.32
         },
         {
@@ -18089,7 +18089,7 @@
       "words_it": [
         {
           "word": "Amen,",
-          "start": 0.0,
+          "start": 0,
           "end": 1.74
         },
         {
@@ -18105,11 +18105,11 @@
         {
           "word": "Credo,",
           "start": 4.24,
-          "end": 5.0
+          "end": 5
         },
         {
           "word": "credo,",
-          "start": 5.0,
+          "start": 5,
           "end": 5.58
         },
         {
@@ -18275,11 +18275,11 @@
         {
           "word": "pura",
           "start": 33.58,
-          "end": 34.0
+          "end": 34
         },
         {
           "word": "Madre",
-          "start": 34.0,
+          "start": 34,
           "end": 34.2
         },
         {
@@ -18405,11 +18405,11 @@
         {
           "word": "la",
           "start": 66.7,
-          "end": 67.0
+          "end": 67
         },
         {
           "word": "buona",
-          "start": 67.0,
+          "start": 67,
           "end": 67.32
         },
         {
@@ -18645,11 +18645,11 @@
         {
           "word": "d’occhio.",
           "start": 108.12,
-          "end": 110.0
+          "end": 110
         },
         {
           "word": "Egli",
-          "start": 110.0,
+          "start": 110,
           "end": 110.16
         },
         {
@@ -18790,11 +18790,11 @@
         {
           "word": "credo,",
           "start": 122.66,
-          "end": 123.0
+          "end": 123
         },
         {
           "word": "credo",
-          "start": 123.0,
+          "start": 123,
           "end": 123.38
         },
         {
@@ -18840,7 +18840,7 @@
       "words_it": [
         {
           "word": "Amen,",
-          "start": 0.0,
+          "start": 0,
           "end": 0.68
         },
         {
@@ -19015,7 +19015,7 @@
         },
         {
           "word": "di",
-          "start": 35.0,
+          "start": 35,
           "end": 35.14
         },
         {
@@ -19096,17 +19096,63 @@
         {
           "word": "sovracelesti",
           "start": 48.94,
-          "end": 51.0
+          "end": 51
         },
         {
           "word": "santi",
-          "start": 51.0,
+          "start": 51,
           "end": 52.2
         },
         {
           "word": "misteri.",
           "start": 52.26,
           "end": 56.62
+        }
+      ]
+    },
+    {
+      "id": "congregation_057_f753221f_1783552471206652",
+      "role": "congregation",
+      "audio": "assets/audio/03 - الشعب/57 - ذوكساصى كيريه ذوكساصى.mp3",
+      "text": {
+        "it": "Gloria a te Signore, gloria a te.",
+        "ar": "ذوكساصى كيريه ذوكساصى"
+      },
+      "words_it": [
+        {
+          "word": "Gloria",
+          "start": 0.0,
+          "end": 1.36
+        },
+        {
+          "word": "a",
+          "start": 1.36,
+          "end": 2.26
+        },
+        {
+          "word": "te",
+          "start": 2.26,
+          "end": 2.46
+        },
+        {
+          "word": "Signore,",
+          "start": 2.76,
+          "end": 5.28
+        },
+        {
+          "word": "gloria",
+          "start": 5.28,
+          "end": 7.24
+        },
+        {
+          "word": "a",
+          "start": 7.24,
+          "end": 8.14
+        },
+        {
+          "word": "te.",
+          "start": 8.14,
+          "end": 10.1
         }
       ]
     }
