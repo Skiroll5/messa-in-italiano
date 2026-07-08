@@ -729,8 +729,8 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 2.46,
-          "end": 3.86
+          "start": 0.0,
+          "end": 6.75
         }
       ]
     },
@@ -801,8 +801,8 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 1.08,
-          "end": 5.6
+          "start": 0.0,
+          "end": 6.75
         }
       ]
     },
@@ -1225,8 +1225,8 @@
       "words_it": [
         {
           "word": "Pregate.",
-          "start": 8.04,
-          "end": 9.44
+          "start": 0.0,
+          "end": 11.94
         }
       ]
     },
@@ -1640,8 +1640,8 @@
       "words_it": [
         {
           "word": "Pregate.",
-          "start": 0.38,
-          "end": 3.92
+          "start": 0.0,
+          "end": 6.15
         }
       ]
     },
@@ -3430,7 +3430,7 @@
         {
           "word": "Pregate.",
           "start": 0.0,
-          "end": 0.58
+          "end": 11.94
         }
       ]
     },
@@ -4342,8 +4342,8 @@
       "words_it": [
         {
           "word": "Alleluia.",
-          "start": 29.42,
-          "end": 30.82
+          "start": 0.0,
+          "end": 44.89
         }
       ]
     },
@@ -7738,8 +7738,8 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 7.52,
-          "end": 9.48
+          "start": 0.0,
+          "end": 10.77
         }
       ]
     },
@@ -8659,8 +8659,8 @@
       "words_it": [
         {
           "word": "Crediamo.",
-          "start": 2.08,
-          "end": 3.48
+          "start": 0.0,
+          "end": 9.95
         }
       ]
     },
@@ -10498,7 +10498,7 @@
         {
           "word": "Crediamo.",
           "start": 0.0,
-          "end": 0.82
+          "end": 10.43
         }
       ]
     },
@@ -10585,7 +10585,7 @@
         {
           "word": "Crediamo.",
           "start": 0.0,
-          "end": 2.46
+          "end": 10.43
         }
       ]
     },
@@ -16982,8 +16982,8 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 2.72,
-          "end": 4.12
+          "start": 0.0,
+          "end": 26.41
         }
       ]
     },
@@ -18022,8 +18022,8 @@
       "words_it": [
         {
           "word": "Amen.",
-          "start": 1.58,
-          "end": 2.98
+          "start": 0.0,
+          "end": 8.14
         }
       ]
     },
