@@ -36,6 +36,29 @@ document.addEventListener('DOMContentLoaded', () => {
     const timeTotal = document.getElementById('time-total');
     const loopText = document.getElementById('loop-text');
 
+    // Expanded Player DOM
+    const miniPlayerInfo = document.getElementById('mini-player-info');
+    const expandedPlayer = document.getElementById('expanded-player');
+    const minimizeBtn = document.getElementById('minimize-btn');
+    const expandedRole = document.getElementById('expanded-player-role');
+    const expandedText = document.getElementById('expanded-player-text');
+    const expandedProgressContainer = document.getElementById('expanded-progress-area');
+    const expandedProgressBar = document.getElementById('expanded-progress-bar');
+    const expandedTimeCurrent = document.getElementById('expanded-time-current');
+    const expandedTimeTotal = document.getElementById('expanded-time-total');
+    
+    const expPlayBtn = document.getElementById('expanded-play-btn');
+    const expPlayIcon = document.getElementById('expanded-play-icon');
+    const expPrevBtn = document.getElementById('expanded-prev-btn');
+    const expNextBtn = document.getElementById('expanded-next-btn');
+    const seekBackBtn = document.getElementById('seek-back-btn');
+    const seekFwdBtn = document.getElementById('seek-fwd-btn');
+    const expLoopBtn = document.getElementById('expanded-loop-btn');
+    const expLoopIcon = document.getElementById('expanded-loop-icon');
+    const expLoopText = document.getElementById('expanded-loop-text');
+    const expSpeedBtn = document.getElementById('expanded-speed-btn');
+    const expSpeedIcon = document.getElementById('expanded-speed-icon');
+
     let isDraggingProgress = false;
     const speeds = [1, 1.25, 1.5, 2];
     let currentSpeedIndex = 0;
@@ -220,6 +243,9 @@ document.addEventListener('DOMContentLoaded', () => {
             playIcon.classList.remove('fa-play');
             playIcon.classList.add('fa-pause');
             playIcon.style.marginLeft = '0';
+            expPlayIcon.classList.remove('fa-play');
+            expPlayIcon.classList.add('fa-pause');
+            expPlayIcon.style.marginLeft = '0';
             renderList();
         }).catch(e => console.error("Error playing audio", e));
     }
@@ -230,6 +256,9 @@ document.addEventListener('DOMContentLoaded', () => {
         playIcon.classList.remove('fa-pause');
         playIcon.classList.add('fa-play');
         playIcon.style.marginLeft = '2px';
+        expPlayIcon.classList.remove('fa-pause');
+        expPlayIcon.classList.add('fa-play');
+        expPlayIcon.style.marginLeft = '2px';
         renderList();
     }
 
@@ -240,7 +269,11 @@ document.addEventListener('DOMContentLoaded', () => {
         
         let textContent = section.text.it || section.text.ar || '...';
         playerTitle.textContent = textContent;
-        playerRole.textContent = massData.roles[section.role]['it'] || massData.roles[section.role];
+        expandedText.innerHTML = textContent.replace(/\n/g, '<br>');
+        
+        let roleName = massData.roles[section.role]['it'] || massData.roles[section.role];
+        playerRole.textContent = roleName;
+        expandedRole.textContent = roleName;
     }
     
     function toggleLoopMode() {
@@ -250,6 +283,10 @@ document.addEventListener('DOMContentLoaded', () => {
             loopText.textContent = 'Loop 1';
             loopBtn.classList.add('accent');
             loopBtn.classList.remove('muted');
+            expLoopIcon.className = 'fa-solid fa-repeat';
+            expLoopText.textContent = 'Loop 1';
+            expLoopBtn.classList.add('accent');
+            expLoopBtn.classList.remove('muted');
             loopBtn.title = "Repeat Current Track";
         } else if (loopMode === 'repeat') {
             loopMode = 'stop';
@@ -257,6 +294,10 @@ document.addEventListener('DOMContentLoaded', () => {
             loopText.textContent = 'Stop 1';
             loopBtn.classList.remove('accent');
             loopBtn.classList.add('muted');
+            expLoopIcon.className = 'fa-solid fa-stop';
+            expLoopText.textContent = 'Stop 1';
+            expLoopBtn.classList.remove('accent');
+            expLoopBtn.classList.add('muted');
             loopBtn.title = "Stop at end of track";
         } else {
             loopMode = 'auto';
@@ -264,6 +305,10 @@ document.addEventListener('DOMContentLoaded', () => {
             loopText.textContent = 'Auto';
             loopBtn.classList.add('accent');
             loopBtn.classList.remove('muted');
+            expLoopIcon.className = 'fa-solid fa-list-ul';
+            expLoopText.textContent = 'Auto';
+            expLoopBtn.classList.add('accent');
+            expLoopBtn.classList.remove('muted');
             loopBtn.title = "Auto-Next (filtered list)";
         }
     }
@@ -274,6 +319,7 @@ document.addEventListener('DOMContentLoaded', () => {
         audioPlayer.defaultPlaybackRate = newSpeed;
         audioPlayer.playbackRate = newSpeed;
         speedIcon.textContent = newSpeed + 'x';
+        expSpeedIcon.textContent = newSpeed + 'x';
     }
     
     function toggleJustify() {
@@ -343,15 +389,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
         audioPlayer.addEventListener('loadedmetadata', () => {
             if (timeTotal) timeTotal.textContent = formatTime(audioPlayer.duration);
+            if (expandedTimeTotal) expandedTimeTotal.textContent = formatTime(audioPlayer.duration);
         });
 
         audioPlayer.addEventListener('timeupdate', () => {
             if (timeCurrent && audioPlayer.duration) {
-                timeCurrent.textContent = formatTime(audioPlayer.currentTime);
+                const curTimeStr = formatTime(audioPlayer.currentTime);
+                timeCurrent.textContent = curTimeStr;
+                expandedTimeCurrent.textContent = curTimeStr;
             }
             if (audioPlayer.duration && !isDraggingProgress) {
                 const percent = (audioPlayer.currentTime / audioPlayer.duration) * 100;
                 progressBar.style.width = `${percent}%`;
+                expandedProgressBar.style.width = `${percent}%`;
             }
         });
 
@@ -368,22 +418,24 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Track not found in filter, or it was the last one -> Stop
                     pauseAudio();
                     progressBar.style.width = '0%';
+                    expandedProgressBar.style.width = '0%';
                 }
             } else { // stop mode
                 pauseAudio();
                 progressBar.style.width = '0%';
+                expandedProgressBar.style.width = '0%';
             }
         });
 
         // Swipe/Drag to seek logic
-        function updateProgressFromEvent(e) {
+        function updateProgressFromEvent(e, container, bar, timeEl) {
             if (audioPlayer.duration) {
-                const rect = progressContainer.getBoundingClientRect();
+                const rect = container.getBoundingClientRect();
                 const clientX = e.touches ? e.touches[0].clientX : e.clientX;
                 let pos = (clientX - rect.left) / rect.width;
                 pos = Math.max(0, Math.min(1, pos)); // clamp between 0 and 1
-                progressBar.style.width = `${pos * 100}%`;
-                if(timeCurrent) timeCurrent.textContent = formatTime(pos * audioPlayer.duration);
+                bar.style.width = `${pos * 100}%`;
+                if(timeEl) timeEl.textContent = formatTime(pos * audioPlayer.duration);
                 return pos;
             }
             return 0;
@@ -392,21 +444,35 @@ document.addEventListener('DOMContentLoaded', () => {
         const startDrag = (e) => {
             if (!audioPlayer.duration) return;
             isDraggingProgress = true;
-            progressContainer.classList.add('dragging');
-            updateProgressFromEvent(e);
+            const container = e.currentTarget;
+            container.classList.add('dragging');
+            const bar = container.id === 'expanded-progress-area' ? expandedProgressBar : progressBar;
+            const timeEl = container.id === 'expanded-progress-area' ? expandedTimeCurrent : timeCurrent;
+            updateProgressFromEvent(e, container, bar, timeEl);
         };
 
         const onDrag = (e) => {
             if (!isDraggingProgress) return;
             e.preventDefault(); // Prevent scrolling while seeking
-            updateProgressFromEvent(e);
+            const activeContainer = progressContainer.classList.contains('dragging') ? progressContainer : expandedProgressContainer;
+            const activeBar = activeContainer.id === 'expanded-progress-area' ? expandedProgressBar : progressBar;
+            const activeTimeEl = activeContainer.id === 'expanded-progress-area' ? expandedTimeCurrent : timeCurrent;
+            updateProgressFromEvent(e, activeContainer, activeBar, activeTimeEl);
         };
 
         const endDrag = (e) => {
             if (!isDraggingProgress) return;
             isDraggingProgress = false;
-            progressContainer.classList.remove('dragging');
-            const pos = updateProgressFromEvent(e.changedTouches ? e.changedTouches[0] : e);
+            let activeContainer = progressContainer;
+            let activeBar = progressBar;
+            let activeTimeEl = timeCurrent;
+            if (expandedProgressContainer.classList.contains('dragging')) {
+                activeContainer = expandedProgressContainer;
+                activeBar = expandedProgressBar;
+                activeTimeEl = expandedTimeCurrent;
+            }
+            activeContainer.classList.remove('dragging');
+            const pos = updateProgressFromEvent(e.changedTouches ? e.changedTouches[0] : e, activeContainer, activeBar, activeTimeEl);
             if (audioPlayer.duration) {
                 audioPlayer.currentTime = pos * audioPlayer.duration;
             }
@@ -414,12 +480,128 @@ document.addEventListener('DOMContentLoaded', () => {
 
         progressContainer.addEventListener('mousedown', startDrag);
         progressContainer.addEventListener('touchstart', startDrag, {passive: false});
+        expandedProgressContainer.addEventListener('mousedown', startDrag);
+        expandedProgressContainer.addEventListener('touchstart', startDrag, {passive: false});
         
         document.addEventListener('mousemove', onDrag);
         document.addEventListener('touchmove', onDrag, {passive: false});
         
         document.addEventListener('mouseup', endDrag);
         document.addEventListener('touchend', endDrag);
+        
+        // Expanded player opening/closing
+        miniPlayerInfo.addEventListener('click', () => {
+            if(currentPlayingId) {
+                expandedPlayer.classList.add('active');
+            }
+        });
+        
+        minimizeBtn.addEventListener('click', () => {
+            expandedPlayer.classList.remove('active');
+        });
+
+        // Swipe to open/close expanded player interactively
+        let swipeStartY = 0;
+        let swipeStartTime = 0;
+        let isDraggingPlayer = false;
+        let isClosingPlayer = false;
+        const playerBar = document.querySelector('.player-bar');
+        const expContent = document.querySelector('.expanded-content-area');
+        
+        playerBar.addEventListener('touchstart', (e) => {
+            if (!currentPlayingId) return;
+            if (e.target.closest('.progress-area') || e.target.closest('.player-controls')) return;
+            swipeStartY = e.touches[0].clientY;
+            swipeStartTime = Date.now();
+            isDraggingPlayer = true;
+            expandedPlayer.style.transition = 'none';
+        }, {passive: true});
+        
+        playerBar.addEventListener('touchmove', (e) => {
+            if (!currentPlayingId || !isDraggingPlayer) return;
+            const deltaY = e.touches[0].clientY - swipeStartY;
+            if (deltaY < 0) { // Swiping up
+                if(e.cancelable) e.preventDefault(); // Stop page scroll
+                expandedPlayer.style.transform = `translateY(calc(100% + ${deltaY}px))`;
+            }
+        }, {passive: false});
+        
+        playerBar.addEventListener('touchend', (e) => {
+            if (!currentPlayingId || !isDraggingPlayer) return;
+            isDraggingPlayer = false;
+            expandedPlayer.style.transition = '';
+            expandedPlayer.style.transform = '';
+            
+            const swipeEndY = e.changedTouches[0].clientY;
+            const swipeTime = Date.now() - swipeStartTime;
+            const deltaY = swipeEndY - swipeStartY;
+            
+            if (deltaY < -40 || (deltaY < -10 && swipeTime < 300)) {
+                expandedPlayer.classList.add('active');
+            }
+            swipeStartY = 0;
+        }, {passive: true});
+        
+        expandedPlayer.addEventListener('touchstart', (e) => {
+            if (e.target.closest('.expanded-main-controls') || e.target.closest('.expanded-secondary-controls') || e.target.closest('.progress-area') || e.target.closest('.minimize-btn')) return;
+            swipeStartY = e.touches[0].clientY;
+            swipeStartTime = Date.now();
+            isClosingPlayer = true;
+        }, {passive: true});
+        
+        expandedPlayer.addEventListener('touchmove', (e) => {
+            if (!isClosingPlayer) return;
+            
+            if (e.target.closest('.expanded-content-area')) {
+                if (expContent.scrollTop > 0) {
+                    isClosingPlayer = false;
+                    expandedPlayer.style.transition = '';
+                    expandedPlayer.style.transform = '';
+                    return;
+                }
+            }
+            
+            const deltaY = e.touches[0].clientY - swipeStartY;
+            if (deltaY > 0) { // Swiping down
+                if(e.cancelable) e.preventDefault();
+                expandedPlayer.style.transition = 'none';
+                expandedPlayer.style.transform = `translateY(${deltaY}px)`;
+            }
+        }, {passive: false});
+        
+        expandedPlayer.addEventListener('touchend', (e) => {
+            if (!isClosingPlayer) return;
+            isClosingPlayer = false;
+            expandedPlayer.style.transition = '';
+            expandedPlayer.style.transform = '';
+            
+            const swipeEndY = e.changedTouches[0].clientY;
+            const swipeTime = Date.now() - swipeStartTime;
+            const deltaY = swipeEndY - swipeStartY;
+            
+            if (deltaY > 50 || (deltaY > 20 && swipeTime < 300)) {
+                expandedPlayer.classList.remove('active');
+            }
+            swipeStartY = 0;
+        }, {passive: true});
+        
+        // +/- 5s Seeking
+        function seek(seconds) {
+            if (audioPlayer.duration) {
+                let newTime = audioPlayer.currentTime + seconds;
+                audioPlayer.currentTime = Math.max(0, Math.min(newTime, audioPlayer.duration));
+            }
+        }
+        
+        seekBackBtn.addEventListener('click', () => seek(-5));
+        seekFwdBtn.addEventListener('click', () => seek(5));
+        
+        // Expanded player controls bindings
+        expPlayBtn.addEventListener('click', () => playBtn.click());
+        expNextBtn.addEventListener('click', () => nextBtn.click());
+        expPrevBtn.addEventListener('click', () => prevBtn.click());
+        expLoopBtn.addEventListener('click', () => loopBtn.click());
+        expSpeedBtn.addEventListener('click', () => speedBtn.click());
         
         if ('mediaSession' in navigator) {
             audioPlayer.addEventListener('play', updateMediaSession);

@@ -793,6 +793,193 @@
         }
 
         /* ============================================
+           EXPANDED PLAYER
+           ============================================ */
+        
+        .expanded-player {
+            position: fixed;
+            inset: 0;
+            z-index: 200;
+            background: var(--bg-primary);
+            display: flex;
+            flex-direction: column;
+            transform: translateY(100%);
+            transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+            padding-top: var(--safe-top);
+            padding-bottom: var(--safe-bottom);
+        }
+
+        .expanded-player.active {
+            transform: translateY(0);
+        }
+        
+        .expanded-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 16px;
+            position: relative;
+        }
+        
+        .minimize-btn {
+            position: absolute;
+            left: 16px;
+            background: transparent;
+            border: none;
+            color: var(--text-primary);
+            font-size: 24px;
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        .expanded-role-badge {
+            font-family: var(--font-ui);
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+        }
+
+        .expanded-content-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+            overflow-y: auto;
+        }
+
+        .expanded-text {
+            font-family: var(--font-liturgy);
+            font-size: 28px;
+            line-height: 1.6;
+            color: var(--text-primary);
+            text-align: center;
+            margin: auto 0;
+        }
+        
+        @media (min-width: 768px) {
+            .expanded-text {
+                font-size: 36px;
+            }
+        }
+
+        .expanded-controls-area {
+            padding: 24px;
+            padding-bottom: max(24px, calc(var(--safe-bottom) + 16px));
+            background: var(--bg-card);
+            border-top: 1px solid var(--border-light);
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.05);
+        }
+
+        .expanded-progress-container {
+            margin-bottom: 24px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .expanded-time-display {
+            display: flex;
+            justify-content: space-between;
+            font-family: var(--font-ui);
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--text-muted);
+            margin-top: 8px;
+        }
+
+        .expanded-main-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        .expanded-play-btn {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            border: none;
+            background: var(--accent-burgundy);
+            color: #fff;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 16px rgba(139, 26, 43, 0.3);
+            transition: all 0.2s ease;
+            margin: 0 12px;
+        }
+
+        .dark .expanded-play-btn {
+            box-shadow: 0 4px 16px rgba(212, 137, 107, 0.25);
+        }
+        
+        .expanded-play-btn:active {
+            transform: scale(0.92);
+        }
+        
+        .expanded-skip-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-primary);
+            font-size: 24px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            width: 44px;
+            height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .expanded-skip-btn:active {
+            transform: scale(0.88);
+            color: var(--accent-gold);
+        }
+
+        .seek-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: var(--text-secondary);
+            background: transparent;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            transition: color 0.2s ease;
+            padding: 8px;
+        }
+        
+        .seek-btn:active {
+            transform: scale(0.9);
+        }
+        
+        .seek-btn:hover {
+            color: var(--text-primary);
+        }
+        
+        .seek-label {
+            font-size: 9px;
+            font-family: var(--font-ui);
+            font-weight: 700;
+            margin-top: 2px;
+        }
+
+        .expanded-secondary-controls {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 24px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* ============================================
            ANIMATIONS & MICRO-INTERACTIONS
            ============================================ */
 
@@ -948,9 +1135,14 @@
         <!-- Player Content -->
         <div class="player-content">
             <!-- Track Info -->
-            <div class="player-info">
-                <p class="player-role-label" id="player-role">Per iniziare</p>
-                <p class="player-track-title" id="player-title">Seleziona un brano</p>
+            <div class="player-info" id="mini-player-info" style="cursor:pointer; display: flex; align-items: center; justify-content: flex-start; gap: 12px;" title="Espandi player">
+                <div style="color: var(--text-muted); opacity: 0.7; flex-shrink: 0; display: flex; align-items: center; justify-content: center; width: 24px;">
+                    <i class="fa-solid fa-chevron-up" style="font-size: 14px;"></i>
+                </div>
+                <div style="min-width:0; overflow:hidden; flex:1;">
+                    <p class="player-role-label" id="player-role">Per iniziare</p>
+                    <p class="player-track-title" id="player-title">Seleziona un brano</p>
+                </div>
             </div>
 
             <!-- Controls -->
@@ -979,6 +1171,77 @@
                 <!-- Speed -->
                 <button id="speed-btn" class="ctrl-btn accent" title="Velocità">
                     <span id="speed-icon" style="font-size:12px; font-weight:700;">1x</span>
+                    <span class="ctrl-btn-label">Speed</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Expanded Player -->
+    <div class="expanded-player" id="expanded-player">
+        <div class="expanded-header">
+            <button class="minimize-btn" id="minimize-btn">
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <span class="expanded-role-badge" id="expanded-player-role">Per iniziare</span>
+        </div>
+        
+        <div class="expanded-content-area">
+            <p class="expanded-text" id="expanded-player-text">Seleziona un brano</p>
+        </div>
+        
+        <div class="expanded-controls-area">
+            <div class="expanded-progress-container">
+                <div class="progress-area" id="expanded-progress-area">
+                    <div class="progress-track">
+                        <div class="progress-fill" id="expanded-progress-bar"></div>
+                    </div>
+                </div>
+                <div class="expanded-time-display">
+                    <span id="expanded-time-current">0:00</span>
+                    <span id="expanded-time-total">0:00</span>
+                </div>
+            </div>
+            
+            <div class="expanded-main-controls">
+                <!-- Seek Backward 5s -->
+                <button id="seek-back-btn" class="seek-btn">
+                    <i class="fa-solid fa-rotate-left"></i>
+                    <span class="seek-label">5s</span>
+                </button>
+                
+                <!-- Prev -->
+                <button id="expanded-prev-btn" class="expanded-skip-btn">
+                    <i class="fa-solid fa-backward-step"></i>
+                </button>
+                
+                <!-- Play/Pause -->
+                <button id="expanded-play-btn" class="expanded-play-btn">
+                    <i class="fa-solid fa-play" id="expanded-play-icon"></i>
+                </button>
+                
+                <!-- Next -->
+                <button id="expanded-next-btn" class="expanded-skip-btn">
+                    <i class="fa-solid fa-forward-step"></i>
+                </button>
+                
+                <!-- Seek Forward 5s -->
+                <button id="seek-fwd-btn" class="seek-btn">
+                    <i class="fa-solid fa-rotate-right"></i>
+                    <span class="seek-label">5s</span>
+                </button>
+            </div>
+            
+            <div class="expanded-secondary-controls">
+                <!-- Loop -->
+                <button id="expanded-loop-btn" class="ctrl-btn accent">
+                    <i class="fa-solid fa-list-ul" id="expanded-loop-icon"></i>
+                    <span class="ctrl-btn-label" id="expanded-loop-text">Auto</span>
+                </button>
+                
+                <!-- Speed -->
+                <button id="expanded-speed-btn" class="ctrl-btn accent">
+                    <span id="expanded-speed-icon" style="font-size:12px; font-weight:700;">1x</span>
                     <span class="ctrl-btn-label">Speed</span>
                 </button>
             </div>
